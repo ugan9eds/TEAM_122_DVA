@@ -1,70 +1,379 @@
 <!DOCTYPE html>
-<html lang="en">
- 
-<head>
-    <title>Python Flask Bucket List App</title>
- 
- 
-    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
- 
-    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
- 
- 
-</head>
- 
+<meta charset="utf-8">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/interactive.css') }}">
+<!-- Load in the d3 library -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
 <body>
- 
-    <div class="container">
-        <div class="header">
-            <nav>
-                <ul class="nav nav-pills pull-right">
-                    <li role="presentation" class="active"><a href="#">Home</a>
-                    </li>
-                    <li role="presentation"><a href="#">Sign In</a>
-                    </li>
-                    <li role="presentation"><a href="showSignUp">Sign Up</a>
-                    </li>
-                </ul>
-            </nav>
-            <h3 class="text-muted">Python Flask App</h3>
-        </div>
- 
-        <div class="jumbotron">
-            <h1>Bucket List App</h1>
-            <p class="lead"></p>
-            <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Sign up today</a>
-            </p>
-        </div>
- 
-        <div class="row marketing">
-            <div class="col-lg-6">
-                <h4>Bucket List</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
- 
-            <div class="col-lg-6">
-                <h4>Bucket List</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
- 
-                <h4>Bucket List</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
-            </div>
-        </div>
- 
-        <footer class="footer">
-            <p>&copy; Company 2015</p>
-        </footer>
- 
+    <div id="chart1">
+        <svg id="svg1"></svg>
     </div>
+    <script>
+        var margin = {
+                top: 30,
+                right: 40,
+                bottom: 20,
+                left: 50
+            },
+            width = 800 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        // Define date parser
+        var parseTime = d3.timeParse("%Y");
+
+        // Define scales
+        var xScale = d3.scaleTime().range([0, width]);
+        var yScale = d3.scaleLinear().range([height, 0]);
+
+        // Define axes
+        var xAxis = d3.axisBottom(xScale).tickFormat(d3.timeFormat("%Y")).ticks(d3.timeYear.every(1));
+        var yAxis = d3.axisLeft().scale(yScale);
+
+        // Define lines
+        var line = d3
+            .line()
+            // .curve(d3.curveMonotoneX)
+            .x(function(d, i) {
+                return xScale(d['year']);
+            }) // set the x values for the line generator
+            .y(function(d) {
+                return yScale(d['count']);
+            }) // set the y values for the line generator
+
+        // Define svg canvas
+        var svg = d3
+            .select("#svg1")
+            .append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        // 8. An array of objects of length N. Each object has key -> value pair, the key being "y" and the value is a random number
+        //d3.csv('state-year-earthquakes.csv').then(function(data) {
+        d3.json('http://127.0.0.1:5000/getData').then(function(data) {
+
+            var region_groups = d3.nest()
+                .key(function(d) {
+                    return d.region;
+                })
+                .key(function(d) {
+                    return d.year;
+                })
+                .rollup(function(v) {
+                    return d3.sum(v, function(d) {
+                        return +d.count;
+                    });
+                })
+                .entries(data);
+
+            regional_data = []
+
+            region_groups.forEach(function(d) {
+
+                d.values.map(function(k, i) {
+                    regional_data.push({
+                        region: d.key,
+                        year: k.key,
+                        count: +k.value
+                    });
+                });
+            });
+
+            var grouped_states = d3.nest()
+                .key(function(d) {
+                    return d.state;
+                })
+                .rollup(function(v) {
+                    return d3.sum(v, function(d) {
+                        return +d.count;
+                    });
+                })
+                .entries(data)
+
+            var distinct_grouped_regions = d3.nest()
+                .key(function(d) {
+                    return d.region;
+                })
+                .key(function(d) {
+                    return d.year;
+                })
+                .key(function(d) {
+                    return d.count;
+                })
+                .entries(regional_data)
+
+            var distinct_regions = distinct_grouped_regions.map(function(d) {
+                return {
+                    region: d.key
+                }
+            })
+
+            var new_region = d3.nest()
+                .key(function(d) {
+                    return d.region;
+                })
+                .entries(regional_data);
+
+            new_region.forEach(function(d) {
+                for (let step = 0; step < d.values.length; step++) {
+                    delete d.values[step].region
+                }
+            })
+
+            regional_data.forEach(function(d) {
+                d.year = parseTime(d.year);
+            });
+
+            xScale.domain([
+                d3.min(regional_data, function(d) {
+                    return d.year;
+                }),
+                d3.max(regional_data, function(d) {
+                    return d.year;
+                })
+            ]);
+
+            yScale.domain([0, d3.max(regional_data, function(d) {
+                return +d.count;
+            })]);
+
+            var color = d3.scaleOrdinal()
+                .domain(distinct_regions)
+                .range(['red', 'green', 'purple', 'steelblue']);
+
+            color.domain(distinct_regions)
+
+            /// Create a SVG
+            var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+            // 3. Call the x axis in a group tag
+            svg.append("g")
+                .attr("class", "axis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(xAxis);
+
+            svg
+                .append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+                .append("text")
+                .attr("class", "label")
+                .attr("y", 6)
+                .attr("dy", ".71em")
+                .attr("dx", ".71em")
+                .style("text-anchor", "beginning")
+
+            var line_plot = svg
+                .selectAll(".region")
+                .data(new_region)
+                .enter()
+                .append("g")
+                .attr("class", "category");
+
+            line_plot
+                .append("path")
+                .attr("class", "line")
+                .attr("d", function(d) {
+                    //console.log(d)
+                    return line(d.values);
+                })
+                .style("stroke", function(d) {
+                    return color(d.key);
+                });
+
+            var symbol = function(i, datapoints) {
+                return d3.symbol()
+                    .size(12)
+                    .type(d3.symbolCircle);
+            };
+            var radius = 3;
+
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "16px")
+                .style("font-weight", "bold")
+                .text("US Earthquakes By Region 2011-2015");
+
+            svg.append("text")
+                .attr("x", (width / 2))
+                .attr("y", 20 - (margin.top / 2))
+                .attr("text-anchor", "middle")
+                .style("font-size", "12px")
+                .style("font-weight", "bold")
+                .text("nbhatt32");
+
+            new_region.forEach(function(d, i) {
+                svg.selectAll(".point.dataset-" + i)
+                    .data(d.values)
+                    .enter().append("circle")
+                    .attr("class", d.key)
+                    .attr("fill", color(d.key))
+                    .attr("stroke", color(d.key))
+                    .attr("cx", function(d) {
+                        return xScale(d.year)
+                    })
+                    .attr("cy", function(d) {
+                        return yScale(d.count)
+                    })
+                    .attr("r", radius)
+                    .on("mouseover", showDetailMouseOver)
+                    .on("mouseout", removeDetailsMouseOut);
+
+            });
+
+            // Legend
+
+            var legend = svg.append('g')
+                .attr('class', 'legend')
+                .attr('transform', 'translate(' + (650) + ',20)');
+
+            legend.selectAll('rect')
+                .data(distinct_regions)
+                .enter()
+                .append('rect')
+                .attr('x', 0)
+                .attr('y', function(d, i) {
+                    return i * 18;
+                })
+                .attr('width', 12)
+                .attr('height', 12)
+                .attr('fill', function(d, i) {
+                    return color(i);
+                });
+
+            legend.selectAll('text')
+                .data(distinct_regions)
+                .enter()
+                .append('text')
+                .text(function(d) {
+                    return d.region;
+                })
+                .attr('x', 18)
+                .attr('y', function(d, i) {
+                    return i * 18;
+                })
+                .attr('text-anchor', 'start')
+                .attr('alignment-baseline', 'hanging');
+
+
+            // Create Event Handlers for mouse
+            function showDetailMouseOver(d, i) {
+
+                var svg = d3.select("chart1")
+                    .append("svg")
+                    .attr("width", width)
+                    .attr("height", 500);
+
+                // set the ranges
+                var yScaleBarGraph = d3.scaleBand()
+                    .range([height, 0])
+                    .padding(0.1);
+
+                var xScaleBarGraph = d3.scaleLinear()
+                    .range([0, width]);
+
+                var svg = d3.select("body").append("svg")
+                    .attr('class', 'barchart')
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform",
+                        "translate(" + 100 + "," + 30 + ")");
+
+                // gridlines in x axis function
+                function make_x_gridlines() {
+                    return d3.axisBottom(xScaleBarGraph)
+                        .ticks()
+                }
+
+                // Use D3 to select element, change color and size
+                //console.log(event)
+                const circle = d3.select(this);
+                //console.log(event.type)
+                circle.attr("r", radius * 2);
+
+                var mouseOverYear = event.srcElement.__data__.year.getFullYear()
+                var mouseOverRegion = event.srcElement.classList.value
+
+                region_subset = data.filter(function(d) {
+                    return (parseTime(d.year).getFullYear() == mouseOverYear) && (d.region == mouseOverRegion) && d.count
+                })
+
+                region_subset.sort(function(a, b) {
+
+                    if (a.count.toString() == b.count.toString()) {
+                        return d3.ascending(b.state, a.state);
+                    } else {
+                        return a.count - b.count;
+                    }
+                });
+
+                // Scale the range of the data in the domains
+                xScaleBarGraph.domain([0, d3.max(region_subset, function(d) {
+                    return d.count;
+                })])
+                yScaleBarGraph.domain(region_subset.map(function(d) {
+                    return d.state;
+                }));
+
+                // append the rectangles for the bar chart
+                svg.selectAll(".bar")
+                    .data(region_subset)
+                    .enter().append("rect")
+                    .attr("class", "bar")
+                    .attr("width", function(d) {
+                        return xScaleBarGraph(d.count);
+                    })
+                    .attr("y", function(d) {
+                        return yScaleBarGraph(d.state);
+                    })
+                    .attr("height", yScaleBarGraph.bandwidth());
+
+                // add the x Axis
+                svg.append("g")
+                    .attr('class', 'grid')
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(make_x_gridlines().tickSize(-height)
+                        .tickFormat(""));
+
+                // add the X Axis
+                svg.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(xScaleBarGraph));
+
+                // add the y Axis
+                svg.append("g")
+                    .call(d3.axisLeft(yScaleBarGraph));
+
+                svg.append("text")
+                    .attr("x", (width / 2))
+                    .attr("y", 0 - (margin.top / 2))
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "16px")
+                    .text(mouseOverRegion + " Region Earthquakes " + mouseOverYear.toString());
+
+            }
+
+            function removeDetailsMouseOut(d, i) {
+
+                // Use D3 to select element, change color back to normal
+
+                const circle = d3.select(this);
+                circle.attr("r", radius);
+
+                document.querySelectorAll('svg.barchart').forEach(function(s) {
+                    s.remove()
+                })
+            }
+        });
+    </script>
 </body>
- 
-</html>
+<html>
