@@ -1,4 +1,3 @@
-from sqlalchemy import Table
 from sqlalchemy import create_engine, MetaData, Table
 
 engine = create_engine("<CONNECTION_STRING_HERE>", convert_unicode=True)

@@ -11,7 +11,11 @@ def index():
 	
 @app.route("/player.html")
 def player():
-    return render_template('player.html')	
+    df = pd.read_csv('data/player_prices.csv')
+    df = df.drop(['Name + ID'], axis=1)
+    
+    return render_template('player.html', column_names=df.columns.values, row_data=list(df.values.tolist()),
+                           link_column="Name", zip=zip)
 	
 @app.route("/chart.html")
 def chart():
@@ -38,6 +42,16 @@ def dataStream():
     data = {'chart_data': chart_data}
 
     return chart_data
+
+# @app.route("/player/prices", methods=['POST', 'GET'])
+# def player_prices():
+#     df = pd.read_csv('data/player_prices.csv')
+#     df = df.drop(['Name + ID'], axis=1)
+#     chart_data = df.to_dict(orient='records')
+#     chart_data = json.dumps(chart_data, indent=2)
+#     data = {'chart_data': chart_data}
+
+#     return chart_data
 
 
 if __name__ == "__main__":
