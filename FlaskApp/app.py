@@ -5,9 +5,29 @@ import pandas as pd
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/",  methods=['GET', 'POST'])
 def index():
-    return render_template('index.html')
+    return render_template('home.html')
+	
+@app.route("/player.html")
+def player():
+    return render_template('player.html')	
+	
+@app.route("/chart.html")
+def chart():
+    return render_template('chart.html')	
+	
+@app.route("/signup.html")
+def signup():
+    return render_template('signup.html')	
+
+@app.route("/login.html")
+def login():
+    return render_template('login.html')	
+
+@app.route("/confirmation.html",  methods=['GET', 'POST'])
+def confirmation():
+    return render_template('confirmation.html')	
 
 
 @app.route("/getData", methods=['POST', 'GET'])
