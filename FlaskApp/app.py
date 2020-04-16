@@ -63,6 +63,15 @@ def player_game_stats_data():
     data = {'chart_data': chart_data}
     return chart_data
 
+@app.route("/gamestatsdatagoalie", methods=['GET', 'POST'])
+def player_game_stats_goalie_data():
+    df1 = pd.read_csv('data/10_game_averages_goalies.csv')
+    df1 = df1.drop(df1.columns[0], axis=1)
+    chart_data = df1.to_dict(orient='records')
+    chart_data = json.dumps(chart_data, indent=2)
+    data = {'chart_data': chart_data}
+    return chart_data
+
 
 @app.route("/chart.html")
 def chart():

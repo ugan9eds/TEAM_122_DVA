@@ -66,6 +66,27 @@
 
             </table>
         </div>
+        <br>
+        <br>
+        <br>
+        <div class="jumbotron">
+            <h1>Goalie Last 10 Game stats!!!</h1>
+        </div>
+        <div>
+            <table id="gamestats_table_goalie" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Saves per 10</th>
+                        <th>Save Percent 10</th>
+                        <th>Wins 10</th>
+                        <th>Shots Against 10</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
 
         <footer class="footer">
             <p>&copy; Company 2020</p>
@@ -138,12 +159,58 @@
                 '</table>';
         }
 
+        function format2(d) {
+            // `d` is the original data object for the row
+            return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+                '<tr>' +
+                '<td>Player ID:</td>' +
+                '<td>' + d.player_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Game ID:</td>' +
+                '<td>' + d.game_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Season:</td>' +
+                '<td>' + d.season + '</td>' +
+                '</tr>' +
+                '<td>Goals Against 10:</td>' +
+                '<td>' + d.goals_against_10 + '</td>' +
+                '</tr>' +
+                '<td>Shutouts 10:</td>' +
+                '<td>' + d.shutouts_10 + '</td>' +
+                '</tr>' +
+                '<td>OT Loss 10:</td>' +
+                '<td>' + d.ot_loss_10 + '</td>' +
+                '</tr>' +
+                '<td>ES Shots 10:</td>' +
+                '<td>' + d.es_shots_10 + '</td>' +
+                '</tr>' +
+                '<td>ES Save Percent 10:</td>' +
+                '<td>' + d.es_save_percent_10 + '</td>' +
+                '</tr>' +
+                '<td>PP Shots 10:</td>' +
+                '<td>' + d.pp_shots_10 + '</td>' +
+                '</tr>' +
+                '<td>PP Save Percent 10:</td>' +
+                '<td>' + d.pp_save_percent_10 + '</td>' +
+                '</tr>' +
+                '<td>SH Shots 10:</td>' +
+                '<td>' + d.sh_shots_10 + '</td>' +
+                '</tr>' +
+                '</tr>' +
+                '<td>SH Save Percent 10:</td>' +
+                '<td>' + d.sh_save_percent_10 + '</td>' +
+                '</tr>' +                      
+                '</table>';
+        }
+        
         $(document).ready(function () {
 
             var table = $('#gamestats_table').DataTable({
-                processing: true,
-                serverSide: true,
                 ajax: { url: "http://127.0.0.1:5000/gamestatsdata", dataSrc: "" },
+                "pagingType": "full_numbers",
+
                 "columns": [
                     {
                         "className": 'details-control',
@@ -172,6 +239,44 @@
                 else {
                     // Open this row
                     row.child(format(row.data())).show();
+                    tr.addClass('shown');
+                }
+            });
+
+
+            
+            var table2 = $('#gamestats_table_goalie').DataTable({
+                ajax: { url: "http://127.0.0.1:5000/gamestatsdatagoalie", dataSrc: "" },
+                "pagingType": "full_numbers",
+
+                "columns": [
+                    {
+                        "className": 'details-control',
+                        "orderable": false,
+                        "data": null,
+                        "defaultContent": ''
+                    },
+                    { "data": "fullName" },
+                    { "data": "saves_10" },
+                    { "data": "save_percent_10" },
+                    { "data": "wins_10" },
+                    { "data": "shots_against_10" }
+                ],
+                "order": [[1, 'asc']]
+            });
+
+            $('#gamestats_table_goalie tbody').on('click', 'td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table2.row(tr);
+
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass('shown');
+                }
+                else {
+                    // Open this row
+                    row.child(format2(row.data())).show();
                     tr.addClass('shown');
                 }
             });
