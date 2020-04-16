@@ -1,0 +1,775 @@
+id,fullName,link,firstName,lastName,primaryNumber,birthDate,currentAge,birthCity,birthStateProvince,birthCountry,nationality,height,weight,active,alternateCaptain,captain,rookie,shootsCatches,rosterStatus,currentTeamid,currentTeamname,currentTeamlink,primaryPositioncode,primaryPositionname,primaryPositiontype,primaryPositionabbreviation
+8465009,Zdeno Chara,/api/v1/people/8465009,Zdeno,Chara,33,1977-03-18,43,Trencin,,SVK,SVK,"6' 9""",250,true,false,true,false,L,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8466138,Joe Thornton,/api/v1/people/8466138,Joe,Thornton,19,1979-07-02,40,London,ON,CAN,CAN,"6' 4""",220,true,true,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8466139,Patrick Marleau,/api/v1/people/8466139,Patrick,Marleau,12,1979-09-15,40,Aneroid,SK,CAN,CAN,"6' 2""",215,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8467950,Craig Anderson,/api/v1/people/8467950,Craig,Anderson,41,1981-05-21,38,Park Ridge,IL,USA,USA,"6' 2""",186,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,G,Goalie,Goalie,G
+8468011,Ryan Miller,/api/v1/people/8468011,Ryan,Miller,30,1980-07-17,39,East Lansing,MI,USA,USA,"6' 2""",170,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,G,Goalie,Goalie,G
+8468493,Ron Hainsey,/api/v1/people/8468493,Ron,Hainsey,81,1981-03-24,38,Bolton,CT,USA,USA,"6' 3""",201,true,true,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8468508,Justin Williams,/api/v1/people/8468508,Justin,Williams,14,1981-10-04,38,Cobourg,ON,CAN,CAN,"6' 1""",184,true,false,false,false,R,Y,12,Carolina Hurricanes,/api/v1/teams/12,R,Right Wing,Forward,RW
+8468674,Deryk Engelland,/api/v1/people/8468674,Deryk,Engelland,5,1982-04-03,37,Edmonton,AB,CAN,CAN,"6' 2""",212,true,false,false,false,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8468685,Henrik Lundqvist,/api/v1/people/8468685,Henrik,Lundqvist,30,1982-03-02,38,Are,,SWE,SWE,"6' 1""",182,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,G,Goalie,Goalie,G
+8469454,Ilya Kovalchuk,/api/v1/people/8469454,Ilya,Kovalchuk,17,1983-04-15,36,Tver,,RUS,RUS,"6' 3""",222,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,L,Left Wing,Forward,LW
+8469455,Jason Spezza,/api/v1/people/8469455,Jason,Spezza,19,1983-06-13,36,Toronto,ON,CAN,CAN,"6' 3""",216,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8469459,Mikko Koivu,/api/v1/people/8469459,Mikko,Koivu,9,1983-03-12,37,Turku,,FIN,FIN,"6' 3""",213,true,false,true,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8469465,Dan Hamhuis,/api/v1/people/8469465,Dan,Hamhuis,5,1982-12-13,37,Smithers,BC,CAN,CAN,"6' 1""",204,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8469608,Mike Smith,/api/v1/people/8469608,Mike,Smith,41,1982-03-22,37,Kingston,ON,CAN,CAN,"6' 5""",220,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,G,Goalie,Goalie,G
+8470047,Valtteri Filppula,/api/v1/people/8470047,Valtteri,Filppula,51,1984-03-20,36,Vantaa,,FIN,FIN,"6' 0""",189,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8470110,Trevor Daley,/api/v1/people/8470110,Trevor,Daley,83,1983-10-09,36,Toronto,ON,CAN,CAN,"5' 11""",199,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8470144,Frans Nielsen,/api/v1/people/8470144,Frans,Nielsen,81,1984-04-24,35,Herning,,DNK,DNK,"6' 1""",186,true,true,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8470147,Curtis McElhinney,/api/v1/people/8470147,Curtis,McElhinney,35,1983-05-23,36,London,ON,CAN,CAN,"6' 1""",204,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,G,Goalie,Goalie,G
+8470151,Jay Bouwmeester,/api/v1/people/8470151,Jay,Bouwmeester,19,1983-09-27,36,Edmonton,AB,CAN,CAN,"6' 4""",206,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8470187,Johnny Boychuk,/api/v1/people/8470187,Johnny,Boychuk,55,1984-01-19,36,Edmonton,AB,CAN,CAN,"6' 2""",227,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8470257,Alexander Steen,/api/v1/people/8470257,Alexander,Steen,20,1984-03-01,36,Winnipeg,MB,CAN,SWE,"6' 0""",211,true,true,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8470281,Duncan Keith,/api/v1/people/8470281,Duncan,Keith,2,1983-07-16,36,Winnipeg,MB,CAN,CAN,"6' 1""",192,true,true,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8470318,Jonathan Ericsson,/api/v1/people/8470318,Jonathan,Ericsson,52,1984-03-02,36,Karlskrona,,SWE,SWE,"6' 4""",218,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8470594,Marc-Andre Fleury,/api/v1/people/8470594,Marc-Andre,Fleury,29,1984-11-28,35,Sorel,QC,CAN,CAN,"6' 2""",185,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,G,Goalie,Goalie,G
+8470595,Eric Staal,/api/v1/people/8470595,Eric,Staal,12,1984-10-29,35,Thunder Bay,ON,CAN,CAN,"6' 4""",206,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8470600,Ryan Suter,/api/v1/people/8470600,Ryan,Suter,20,1985-01-21,35,Madison,WI,USA,USA,"6' 2""",206,true,true,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8470601,Braydon Coburn,/api/v1/people/8470601,Braydon,Coburn,55,1985-02-27,35,Shaunavon,SK,CAN,CAN,"6' 5""",223,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8470604,Jeff Carter,/api/v1/people/8470604,Jeff,Carter,77,1985-01-01,35,London,ON,CAN,CAN,"6' 3""",219,true,true,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8470606,Dustin Brown,/api/v1/people/8470606,Dustin,Brown,23,1984-11-04,35,Ithaca,NY,USA,USA,"6' 0""",210,true,false,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,R,Right Wing,Forward,RW
+8470607,Brent Seabrook,/api/v1/people/8470607,Brent,Seabrook,7,1985-04-20,34,Richmond,BC,CAN,CAN,"6' 3""",220,true,true,false,false,R,I,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8470610,Zach Parise,/api/v1/people/8470610,Zach,Parise,11,1984-07-28,35,Minneapolis,MN,USA,USA,"5' 11""",195,true,true,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,L,Left Wing,Forward,LW
+8470612,Ryan Getzlaf,/api/v1/people/8470612,Ryan,Getzlaf,15,1985-05-10,34,Regina,SK,CAN,CAN,"6' 3""",228,true,false,true,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,C,Center,Forward,C
+8470613,Brent Burns,/api/v1/people/8470613,Brent,Burns,88,1985-03-09,35,Barrie,ON,CAN,CAN,"6' 5""",230,true,true,false,false,R,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8470619,Brian Boyle,/api/v1/people/8470619,Brian,Boyle,9,1984-12-18,35,Hingham,MA,USA,USA,"6' 6""",245,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8470621,Corey Perry,/api/v1/people/8470621,Corey,Perry,10,1985-05-16,34,Peterborough,ON,CAN,CAN,"6' 3""",205,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,R,Right Wing,Forward,RW
+8470626,Loui Eriksson,/api/v1/people/8470626,Loui,Eriksson,21,1985-07-17,34,Gothenburg,,SWE,SWE,"6' 2""",179,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,L,Left Wing,Forward,LW
+8470638,Patrice Bergeron,/api/v1/people/8470638,Patrice,Bergeron,37,1985-07-24,34,Ancienne-Lorette,QC,CAN,CAN,"6' 1""",195,true,true,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8470642,Shea Weber,/api/v1/people/8470642,Shea,Weber,6,1985-08-14,34,Sicamous,BC,CAN,CAN,"6' 4""",230,true,false,true,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8470645,Corey Crawford,/api/v1/people/8470645,Corey,Crawford,50,1984-12-31,35,Montreal,QC,CAN,CAN,"6' 2""",216,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,G,Goalie,Goalie,G
+8470655,David Backes,/api/v1/people/8470655,David,Backes,21,1984-05-01,35,Minneapolis,MN,USA,USA,"6' 3""",215,true,false,false,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,R,Right Wing,Forward,RW
+8470657,Jimmy Howard,/api/v1/people/8470657,Jimmy,Howard,35,1984-03-26,35,Syracuse,NY,USA,USA,"6' 1""",218,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,G,Goalie,Goalie,G
+8470755,Brad Richardson,/api/v1/people/8470755,Brad,Richardson,15,1985-02-04,35,Belleville,ON,CAN,CAN,"6' 0""",190,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8470775,Nate Thompson,/api/v1/people/8470775,Nate,Thompson,44,1984-10-05,35,Anchorage,AK,USA,USA,"6' 1""",205,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8470794,Joe Pavelski,/api/v1/people/8470794,Joe,Pavelski,16,1984-07-11,35,Plover,WI,USA,USA,"5' 11""",195,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8470834,Dustin Byfuglien,/api/v1/people/8470834,Dustin,Byfuglien,33,1985-03-27,34,Roseau,MN,USA,USA,"6' 5""",260,true,true,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8470860,Jaroslav Halak,/api/v1/people/8470860,Jaroslav,Halak,41,1985-05-13,34,Bratislava,,SVK,SVK,"5' 11""",185,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,G,Goalie,Goalie,G
+8470880,Brian Elliott,/api/v1/people/8470880,Brian,Elliott,37,1985-04-09,34,Newmarket,ON,CAN,CAN,"6' 2""",209,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,G,Goalie,Goalie,G
+8470966,Mark Giordano,/api/v1/people/8470966,Mark,Giordano,5,1983-10-03,36,Toronto,ON,CAN,CAN,"6' 1""",200,true,false,true,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8471214,Alex Ovechkin,/api/v1/people/8471214,Alex,Ovechkin,8,1985-09-17,34,Moscow,,RUS,RUS,"6' 3""",236,true,false,true,false,R,Y,15,Washington Capitals,/api/v1/teams/15,L,Left Wing,Forward,LW
+8471215,Evgeni Malkin,/api/v1/people/8471215,Evgeni,Malkin,71,1986-07-31,33,Magnitogorsk,,RUS,RUS,"6' 3""",195,true,true,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8471217,Andrew Ladd,/api/v1/people/8471217,Andrew,Ladd,16,1985-12-12,34,Maple Ridge,BC,CAN,CAN,"6' 3""",192,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8471218,Blake Wheeler,/api/v1/people/8471218,Blake,Wheeler,26,1986-08-31,33,Plymouth,MN,USA,USA,"6' 5""",225,true,false,true,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,R,Right Wing,Forward,RW
+8471227,Devan Dubnyk,/api/v1/people/8471227,Devan,Dubnyk,40,1986-05-04,33,Regina,SK,CAN,CAN,"6' 6""",224,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,G,Goalie,Goalie,G
+8471228,Alexander Radulov,/api/v1/people/8471228,Alexander,Radulov,47,1986-07-05,33,Nizhny Tagil,,RUS,RUS,"6' 1""",205,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,R,Right Wing,Forward,RW
+8471233,Travis Zajac,/api/v1/people/8471233,Travis,Zajac,19,1985-05-13,34,Winnipeg,MB,CAN,CAN,"6' 2""",185,true,true,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8471239,Cory Schneider,/api/v1/people/8471239,Cory,Schneider,35,1986-03-18,34,Marblehead,MA,USA,USA,"6' 3""",200,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,G,Goalie,Goalie,G
+8471242,Mike Green,/api/v1/people/8471242,Mike,Green,27,1985-10-12,34,Calgary,AB,CAN,CAN,"6' 1""",210,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8471260,Blake Comeau,/api/v1/people/8471260,Blake,Comeau,15,1986-02-18,34,Meadow Lake,SK,CAN,CAN,"6' 1""",200,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,L,Left Wing,Forward,LW
+8471262,Carl Soderberg,/api/v1/people/8471262,Carl,Soderberg,34,1985-10-12,34,Malmö,,SWE,SWE,"6' 3""",210,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8471273,Brandon Dubinsky,/api/v1/people/8471273,Brandon,Dubinsky,17,1986-04-29,33,Anchorage,AK,USA,USA,"6' 2""",208,true,false,false,false,L,I,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8471274,Alex Goligoski,/api/v1/people/8471274,Alex,Goligoski,33,1985-07-30,34,Grand Rapids,MN,USA,USA,"5' 11""",185,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8471276,David Krejci,/api/v1/people/8471276,David,Krejci,46,1986-04-28,33,Sternberk,,CZE,CZE,"6' 0""",188,true,true,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8471284,Andrej Sekera,/api/v1/people/8471284,Andrej,Sekera,5,1986-06-08,33,Bojnice,,SVK,SVK,"6' 0""",195,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8471303,Alexander Edler,/api/v1/people/8471303,Alexander,Edler,23,1986-04-21,33,Ostersund,,SWE,SWE,"6' 3""",212,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8471306,Thomas Greiss,/api/v1/people/8471306,Thomas,Greiss,1,1986-01-29,34,Fussen,,DEU,DEU,"6' 2""",232,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,G,Goalie,Goalie,G
+8471392,Roman Polak,/api/v1/people/8471392,Roman,Polak,45,1986-04-28,33,Ostrava,,CZE,CZE,"6' 2""",240,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8471418,Anton Khudobin,/api/v1/people/8471418,Anton,Khudobin,35,1986-05-07,33,Ust-Kamenogorsk,,KAZ,RUS,"5' 11""",195,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,G,Goalie,Goalie,G
+8471426,Troy Brouwer,/api/v1/people/8471426,Troy,Brouwer,36,1985-08-17,34,Vancouver,BC,CAN,CAN,"6' 3""",213,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,R,Right Wing,Forward,RW
+8471436,Matt Hunwick,/api/v1/people/8471436,Matt,Hunwick,48,1985-05-21,34,Warren,MI,USA,USA,"5' 11""",194,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8471469,Pekka Rinne,/api/v1/people/8471469,Pekka,Rinne,35,1982-11-03,37,Kempele,,FIN,FIN,"6' 5""",217,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,G,Goalie,Goalie,G
+8471669,Paul Stastny,/api/v1/people/8471669,Paul,Stastny,26,1985-12-27,34,Quebec City,QC,CAN,USA,"6' 0""",193,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8471675,Sidney Crosby,/api/v1/people/8471675,Sidney,Crosby,87,1987-08-07,32,Cole Harbour,NS,CAN,CAN,"5' 11""",200,true,false,true,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8471676,Bobby Ryan,/api/v1/people/8471676,Bobby,Ryan,9,1987-03-17,33,Cherry Hill,NJ,USA,USA,"6' 2""",208,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,R,Right Wing,Forward,RW
+8471677,Jack Johnson,/api/v1/people/8471677,Jack,Johnson,3,1987-01-13,33,Indianapolis,IN,USA,USA,"6' 1""",227,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8471679,Carey Price,/api/v1/people/8471679,Carey,Price,31,1987-08-16,32,Anahim Lake,BC,CAN,CAN,"6' 3""",217,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,G,Goalie,Goalie,G
+8471685,Anze Kopitar,/api/v1/people/8471685,Anze,Kopitar,11,1987-08-24,32,Jesenice,,SVN,SVN,"6' 3""",225,true,false,true,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8471686,Marc Staal,/api/v1/people/8471686,Marc,Staal,18,1987-01-13,33,Thunder Bay,ON,CAN,CAN,"6' 4""",209,true,true,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8471691,Martin Hanzal,/api/v1/people/8471691,Martin,Hanzal,40,1987-02-20,33,Pisek,,CZE,CZE,"6' 6""",230,true,false,false,false,L,I,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8471695,Tuukka Rask,/api/v1/people/8471695,Tuukka,Rask,40,1987-03-10,33,Savonlinna,,FIN,FIN,"6' 3""",176,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,G,Goalie,Goalie,G
+8471698,T.J. Oshie,/api/v1/people/8471698,T.J.,Oshie,77,1986-12-23,33,Everett,WA,USA,USA,"6' 0""",195,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,R,Right Wing,Forward,RW
+8471699,Andrew Cogliano,/api/v1/people/8471699,Andrew,Cogliano,11,1987-06-14,32,Toronto,ON,CAN,CAN,"5' 10""",175,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8471702,Matt Niskanen,/api/v1/people/8471702,Matt,Niskanen,15,1986-12-06,33,Virginia,MN,USA,USA,"6' 1""",203,true,false,false,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8471707,James Neal,/api/v1/people/8471707,James,Neal,18,1987-09-03,32,Whitby,ON,CAN,CAN,"6' 3""",212,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,L,Left Wing,Forward,LW
+8471709,Marc-Edouard Vlasic,/api/v1/people/8471709,Marc-Edouard,Vlasic,44,1987-03-30,32,Montreal,QC,CAN,CAN,"6' 1""",205,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8471716,Justin Abdelkader,/api/v1/people/8471716,Justin,Abdelkader,8,1987-02-25,33,Muskegon,MI,USA,USA,"6' 2""",213,true,true,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8471724,Kris Letang,/api/v1/people/8471724,Kris,Letang,58,1987-04-24,32,Montreal,QC,CAN,CAN,"6' 0""",201,true,true,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8471729,Kris Russell,/api/v1/people/8471729,Kris,Russell,4,1987-05-02,32,Caroline,AB,CAN,CAN,"5' 10""",170,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8471734,Jonathan Quick,/api/v1/people/8471734,Jonathan,Quick,32,1986-01-21,34,Milford,CT,USA,USA,"6' 1""",216,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,G,Goalie,Goalie,G
+8471735,Keith Yandle,/api/v1/people/8471735,Keith,Yandle,3,1986-09-09,33,Boston,MA,USA,USA,"6' 1""",192,true,true,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8471743,Vladimir Sobotka,/api/v1/people/8471743,Vladimir,Sobotka,17,1987-07-02,32,Trebic,,CZE,CZE,"5' 11""",191,true,false,false,false,L,I,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8471750,Ben Bishop,/api/v1/people/8471750,Ben,Bishop,30,1986-11-21,33,Denver,CO,USA,USA,"6' 7""",210,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,G,Goalie,Goalie,G
+8471769,Niklas Hjalmarsson,/api/v1/people/8471769,Niklas,Hjalmarsson,4,1987-06-06,32,Eksjo,,SWE,SWE,"6' 3""",197,true,true,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8471774,Alex Stalock,/api/v1/people/8471774,Alex,Stalock,32,1987-07-28,32,St. Paul,MN,USA,USA,"6' 0""",200,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,G,Goalie,Goalie,G
+8471794,Darren Helm,/api/v1/people/8471794,Darren,Helm,43,1987-01-21,33,St. Andrews,MB,CAN,CAN,"6' 0""",192,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8471804,Nathan Gerbe,/api/v1/people/8471804,Nathan,Gerbe,24,1987-07-24,32,Oxford,MI,USA,USA,"5' 4""",169,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8471817,Ryan Reaves,/api/v1/people/8471817,Ryan,Reaves,75,1987-01-20,33,Winnipeg,MB,CAN,CAN,"6' 2""",225,true,false,false,false,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,R,Right Wing,Forward,RW
+8471873,Anton Stralman,/api/v1/people/8471873,Anton,Stralman,6,1986-08-01,33,Tibro,,SWE,SWE,"5' 11""",186,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8471887,Patric Hornqvist,/api/v1/people/8471887,Patric,Hornqvist,72,1987-01-01,33,Sollentuna,,SWE,SWE,"5' 11""",189,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,R,Right Wing,Forward,RW
+8472382,Andy Greene,/api/v1/people/8472382,Andy,Greene,4,1982-10-30,37,Trenton,MI,USA,USA,"5' 11""",190,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8473412,Bryan Little,/api/v1/people/8473412,Bryan,Little,18,1987-11-12,32,Edmonton,AB,CAN,CAN,"6' 0""",191,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8473415,Alex Biega,/api/v1/people/8473415,Alex,Biega,3,1988-04-04,31,Montreal,QC,CAN,CAN,"5' 10""",199,true,false,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8473419,Brad Marchand,/api/v1/people/8473419,Brad,Marchand,63,1988-05-11,31,Halifax,NS,CAN,CAN,"5' 9""",181,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,L,Left Wing,Forward,LW
+8473422,Nick Foligno,/api/v1/people/8473422,Nick,Foligno,71,1987-10-31,32,Buffalo,NY,USA,USA,"6' 0""",208,true,false,true,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,L,Left Wing,Forward,LW
+8473446,Erik Johnson,/api/v1/people/8473446,Erik,Johnson,6,1988-03-21,32,Bloomington,MN,USA,USA,"6' 4""",225,true,true,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8473449,Kyle Okposo,/api/v1/people/8473449,Kyle,Okposo,21,1988-04-16,31,St. Paul,MN,USA,USA,"6' 0""",216,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,R,Right Wing,Forward,RW
+8473453,Trevor Lewis,/api/v1/people/8473453,Trevor,Lewis,22,1987-01-08,33,Salt Lake City,UT,USA,USA,"6' 1""",202,true,false,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8473463,Leo Komarov,/api/v1/people/8473463,Leo,Komarov,47,1987-01-23,33,Narva,,EST,FIN,"5' 11""",209,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,R,Right Wing,Forward,RW
+8473473,Milan Lucic,/api/v1/people/8473473,Milan,Lucic,17,1988-06-07,31,Vancouver,BC,CAN,CAN,"6' 3""",231,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,L,Left Wing,Forward,LW
+8473485,Chris Stewart,/api/v1/people/8473485,Chris,Stewart,44,1987-10-30,32,Toronto,ON,CAN,CAN,"6' 2""",242,true,false,false,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,R,Right Wing,Forward,RW
+8473503,James Reimer,/api/v1/people/8473503,James,Reimer,47,1988-03-15,32,Morweena,MB,CAN,CAN,"6' 2""",220,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,G,Goalie,Goalie,G
+8473504,Cal Clutterbuck,/api/v1/people/8473504,Cal,Clutterbuck,15,1987-11-18,32,Welland,ON,CAN,CAN,"5' 11""",216,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,R,Right Wing,Forward,RW
+8473507,Jeff Petry,/api/v1/people/8473507,Jeff,Petry,26,1987-12-09,32,Ann Arbor,MI,USA,USA,"6' 3""",201,true,false,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8473512,Claude Giroux,/api/v1/people/8473512,Claude,Giroux,28,1988-01-12,32,Hearst,ON,CAN,CAN,"5' 11""",185,true,false,true,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8473533,Jordan Staal,/api/v1/people/8473533,Jordan,Staal,11,1988-09-10,31,Thunder Bay,ON,CAN,CAN,"6' 4""",220,true,false,true,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,C,Center,Forward,C
+8473541,Jonathan Bernier,/api/v1/people/8473541,Jonathan,Bernier,45,1988-08-07,31,Laval,QC,CAN,CAN,"6' 0""",185,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,G,Goalie,Goalie,G
+8473544,Derick Brassard,/api/v1/people/8473544,Derick,Brassard,10,1987-09-22,32,Hull,QC,CAN,CAN,"6' 1""",202,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,C,Center,Forward,C
+8473546,Michael Grabner,/api/v1/people/8473546,Michael,Grabner,40,1987-10-05,32,Villach,,AUT,AUT,"6' 1""",188,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,L,Left Wing,Forward,LW
+8473548,Phil Kessel,/api/v1/people/8473548,Phil,Kessel,81,1987-10-02,32,Madison,WI,USA,USA,"6' 0""",202,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,R,Right Wing,Forward,RW
+8473560,Korbinian Holzer,/api/v1/people/8473560,Korbinian,Holzer,22,1988-02-16,32,Munich,,DEU,DEU,"6' 3""",213,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8473563,Nicklas Backstrom,/api/v1/people/8473563,Nicklas,Backstrom,19,1987-11-23,32,Gävle,,SWE,SWE,"6' 1""",206,true,true,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,C,Center,Forward,C
+8473564,Michael Frolik,/api/v1/people/8473564,Michael,Frolik,67,1988-02-17,32,Kladno,,CZE,CZE,"6' 1""",190,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,R,Right Wing,Forward,RW
+8473573,Artem Anisimov,/api/v1/people/8473573,Artem,Anisimov,51,1988-05-24,31,Yaroslavl,,RUS,RUS,"6' 4""",199,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,C,Center,Forward,C
+8473575,Semyon Varlamov,/api/v1/people/8473575,Semyon,Varlamov,40,1988-04-27,31,Samara,,RUS,RUS,"6' 2""",205,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,G,Goalie,Goalie,G
+8473604,Jonathan Toews,/api/v1/people/8473604,Jonathan,Toews,19,1988-04-29,31,Winnipeg,MB,CAN,CAN,"6' 2""",201,true,false,true,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8473618,Mathieu Perreault,/api/v1/people/8473618,Mathieu,Perreault,85,1988-01-05,32,Drummondville,QC,CAN,CAN,"5' 10""",188,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,L,Left Wing,Forward,LW
+8473914,Mark Letestu,/api/v1/people/8473914,Mark,Letestu,22,1985-02-04,35,Elk Point,AB,CAN,CAN,"5' 10""",195,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8473986,Alex Killorn,/api/v1/people/8473986,Alex,Killorn,17,1989-09-14,30,Halifax,NS,CAN,CAN,"6' 1""",197,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,L,Left Wing,Forward,LW
+8473991,Karl Alzner,/api/v1/people/8473991,Karl,Alzner,27,1988-09-24,31,Burnaby,BC,CAN,CAN,"6' 3""",213,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8473994,Jamie Benn,/api/v1/people/8473994,Jamie,Benn,14,1989-07-18,30,Victoria,BC,CAN,CAN,"6' 2""",210,true,false,true,false,L,Y,25,Dallas Stars,/api/v1/teams/25,L,Left Wing,Forward,LW
+8474009,Nick Bonino,/api/v1/people/8474009,Nick,Bonino,13,1988-04-20,31,Hartford,CT,USA,USA,"6' 1""",196,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8474013,Ian Cole,/api/v1/people/8474013,Ian,Cole,28,1989-02-21,31,Ann Arbor,MI,USA,USA,"6' 1""",225,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8474027,Justin Braun,/api/v1/people/8474027,Justin,Braun,61,1987-02-10,33,Minneapolis,MN,USA,USA,"6' 2""",205,true,false,false,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8474031,Kevin Shattenkirk,/api/v1/people/8474031,Kevin,Shattenkirk,22,1989-01-29,31,New Rochelle,NY,USA,USA,"6' 0""",203,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8474034,Pat Maroon,/api/v1/people/8474034,Pat,Maroon,14,1988-04-23,31,St. Louis,MO,USA,USA,"6' 2""",236,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,L,Left Wing,Forward,LW
+8474037,James van Riemsdyk,/api/v1/people/8474037,James,van Riemsdyk,25,1989-05-04,30,Middletown,NJ,USA,USA,"6' 3""",217,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,L,Left Wing,Forward,LW
+8474038,Paul Byron,/api/v1/people/8474038,Paul,Byron,41,1989-04-27,30,Ottawa,ON,CAN,CAN,"5' 9""",158,true,true,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,L,Left Wing,Forward,LW
+8474040,Sam Gagner,/api/v1/people/8474040,Sam,Gagner,89,1989-08-10,30,London,ON,CAN,CAN,"5' 11""",200,true,false,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8474053,Logan Couture,/api/v1/people/8474053,Logan,Couture,39,1989-03-28,30,Guelph,ON,CAN,CAN,"6' 1""",200,true,false,true,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8474056,P.K. Subban,/api/v1/people/8474056,P.K.,Subban,76,1989-05-13,30,Toronto,ON,CAN,CAN,"6' 0""",210,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8474062,Riley Nash,/api/v1/people/8474062,Riley,Nash,20,1989-05-09,30,Consort,AB,CAN,CAN,"6' 2""",185,true,false,false,false,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8474066,Thomas Hickey,/api/v1/people/8474066,Thomas,Hickey,34,1989-02-08,31,Calgary,AB,CAN,CAN,"6' 0""",183,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8474068,Kyle Turris,/api/v1/people/8474068,Kyle,Turris,8,1989-08-14,30,New Westminster,BC,CAN,CAN,"6' 1""",190,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8474090,Brendan Smith,/api/v1/people/8474090,Brendan,Smith,42,1989-02-08,31,Mimico,ON,CAN,CAN,"6' 2""",200,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8474091,Brandon Sutter,/api/v1/people/8474091,Brandon,Sutter,20,1989-02-14,31,Huntington,NY,USA,CAN,"6' 3""",190,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8474098,Colton Sceviour,/api/v1/people/8474098,Colton,Sceviour,7,1989-04-20,30,Red Deer,AB,CAN,CAN,"6' 0""",190,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8474102,David Perron,/api/v1/people/8474102,David,Perron,57,1988-05-28,31,Sherbrooke,QC,CAN,CAN,"6' 0""",200,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8474125,Carl Gunnarsson,/api/v1/people/8474125,Carl,Gunnarsson,4,1986-11-09,33,Orebro,,SWE,SWE,"6' 2""",198,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8474134,Yannick Weber,/api/v1/people/8474134,Yannick,Weber,7,1988-09-23,31,Morges,,CHE,CHE,"5' 11""",200,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8474141,Patrick Kane,/api/v1/people/8474141,Patrick,Kane,88,1988-11-19,31,Buffalo,NY,USA,USA,"5' 10""",177,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,R,Right Wing,Forward,RW
+8474145,Robert Bortuzzo,/api/v1/people/8474145,Robert,Bortuzzo,41,1989-03-18,31,Thunder Bay,ON,CAN,CAN,"6' 4""",216,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8474149,Evgenii Dadonov,/api/v1/people/8474149,Evgenii,Dadonov,63,1989-03-12,31,Chelyabinsk,,RUS,RUS,"5' 11""",185,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,R,Right Wing,Forward,RW
+8474150,Mikael Backlund,/api/v1/people/8474150,Mikael,Backlund,11,1989-03-17,31,Vasteras,,SWE,SWE,"6' 0""",200,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8474151,Ryan McDonagh,/api/v1/people/8474151,Ryan,McDonagh,27,1989-06-13,30,St. Paul,MN,USA,USA,"6' 1""",214,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8474157,Max Pacioretty,/api/v1/people/8474157,Max,Pacioretty,67,1988-11-20,31,New Canaan,CT,USA,USA,"6' 2""",215,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,L,Left Wing,Forward,LW
+8474161,Jakub Voracek,/api/v1/people/8474161,Jakub,Voracek,93,1989-08-15,30,Kladno,,CZE,CZE,"6' 2""",214,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,R,Right Wing,Forward,RW
+8474162,Jake Muzzin,/api/v1/people/8474162,Jake,Muzzin,8,1989-02-21,31,Woodstock,ON,CAN,CAN,"6' 3""",217,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8474166,Alec Martinez,/api/v1/people/8474166,Alec,Martinez,23,1987-07-26,32,Rochester Hills,MI,USA,USA,"6' 1""",209,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8474176,Carl Hagelin,/api/v1/people/8474176,Carl,Hagelin,62,1988-08-23,31,Sodertalje,,SWE,SWE,"6' 0""",185,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,L,Left Wing,Forward,LW
+8474189,Lars Eller,/api/v1/people/8474189,Lars,Eller,20,1989-05-08,30,Rodovre,,DNK,DNK,"6' 2""",205,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,C,Center,Forward,C
+8474190,Wayne Simmonds,/api/v1/people/8474190,Wayne,Simmonds,17,1988-08-26,31,Scarborough,ON,CAN,CAN,"6' 2""",185,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,R,Right Wing,Forward,RW
+8474207,Nick Holden,/api/v1/people/8474207,Nick,Holden,22,1987-05-15,32,St. Albert,AB,CAN,CAN,"6' 4""",212,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8474218,Jason Demers,/api/v1/people/8474218,Jason,Demers,55,1988-06-09,31,Dorval,QC,CAN,CAN,"6' 1""",195,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8474230,Micheal Haley,/api/v1/people/8474230,Micheal,Haley,38,1986-03-30,33,Guelph,ON,CAN,CAN,"5' 11""",202,true,false,false,false,L,I,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8474250,Zack Smith,/api/v1/people/8474250,Zack,Smith,15,1988-04-05,31,Maple Creek,SK,CAN,CAN,"6' 2""",208,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8474291,Jay Beagle,/api/v1/people/8474291,Jay,Beagle,83,1985-10-16,34,Calgary,AB,CAN,CAN,"6' 3""",210,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8474563,Drew Doughty,/api/v1/people/8474563,Drew,Doughty,8,1989-12-08,30,London,ON,CAN,CAN,"6' 1""",202,true,true,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8474564,Steven Stamkos,/api/v1/people/8474564,Steven,Stamkos,91,1990-02-07,30,Markham,ON,CAN,CAN,"6' 1""",194,true,false,true,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8474565,Alex Pietrangelo,/api/v1/people/8474565,Alex,Pietrangelo,27,1990-01-18,30,King City,ON,CAN,CAN,"6' 3""",210,true,false,true,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8474567,Zach Bogosian,/api/v1/people/8474567,Zach,Bogosian,24,1990-07-15,29,MASSENA,NY,USA,USA,"6' 2""",200,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8474568,Luke Schenn,/api/v1/people/8474568,Luke,Schenn,2,1989-11-02,30,Saskatoon,SK,CAN,CAN,"6' 2""",227,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8474569,Colin Wilson,/api/v1/people/8474569,Colin,Wilson,22,1989-10-20,30,Greenwich,CT,USA,USA,"6' 1""",215,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8474571,Mikkel Boedker,/api/v1/people/8474571,Mikkel,Boedker,89,1989-12-16,30,Brondby,,DNK,DNK,"5' 11""",207,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,L,Left Wing,Forward,LW
+8474573,Josh Bailey,/api/v1/people/8474573,Josh,Bailey,12,1989-10-02,30,Bowmanville,ON,CAN,CAN,"6' 1""",200,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,R,Right Wing,Forward,RW
+8474574,Tyler Myers,/api/v1/people/8474574,Tyler,Myers,57,1990-02-01,30,Houston,TX,USA,CAN,"6' 8""",229,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8474578,Erik Karlsson,/api/v1/people/8474578,Erik,Karlsson,65,1990-05-31,29,Landsbro,,SWE,SWE,"6' 0""",190,true,true,false,false,R,I,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8474579,Luca Sbisa,/api/v1/people/8474579,Luca,Sbisa,5,1990-01-30,30,Ozieri,,ITA,CHE,"6' 3""",206,true,false,false,false,L,I,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8474581,Jake Gardiner,/api/v1/people/8474581,Jake,Gardiner,51,1990-07-04,29,Minnetonka,MN,USA,USA,"6' 2""",203,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8474584,Michael Del Zotto,/api/v1/people/8474584,Michael,Del Zotto,44,1990-06-24,29,Stouffville,ON,CAN,CAN,"6' 0""",195,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8474586,Jordan Eberle,/api/v1/people/8474586,Jordan,Eberle,7,1990-05-15,29,Regina,SK,CAN,CAN,"5' 11""",187,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,R,Right Wing,Forward,RW
+8474589,Tyler Ennis,/api/v1/people/8474589,Tyler,Ennis,63,1989-10-06,30,Edmonton,AB,CAN,CAN,"5' 9""",161,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
+8474590,John Carlson,/api/v1/people/8474590,John,Carlson,74,1990-01-10,30,Natick,MA,USA,USA,"6' 3""",217,true,true,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8474593,Jacob Markstrom,/api/v1/people/8474593,Jacob,Markstrom,25,1990-01-31,30,Gävle,,SWE,SWE,"6' 6""",206,true,false,false,false,L,I,23,Vancouver Canucks,/api/v1/teams/23,G,Goalie,Goalie,G
+8474596,Jake Allen,/api/v1/people/8474596,Jake,Allen,34,1990-08-07,29,Fredericton,NB,CAN,CAN,"6' 2""",203,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,G,Goalie,Goalie,G
+8474597,Cody Goloubef,/api/v1/people/8474597,Cody,Goloubef,26,1989-11-30,30,Mississauga,ON,CAN,CAN,"6' 1""",190,true,false,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8474600,Roman Josi,/api/v1/people/8474600,Roman,Josi,59,1990-06-01,29,Bern,,CHE,CHE,"6' 1""",201,true,false,true,false,L,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8474602,Justin Schultz,/api/v1/people/8474602,Justin,Schultz,4,1990-07-06,29,Kelowna,BC,CAN,CAN,"6' 2""",193,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8474612,Travis Hamonic,/api/v1/people/8474612,Travis,Hamonic,24,1990-08-16,29,St. Malo,MB,CAN,CAN,"6' 2""",205,true,false,false,false,R,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8474613,Derek Stepan,/api/v1/people/8474613,Derek,Stepan,21,1990-06-18,29,Hastings,MN,USA,USA,"6' 0""",196,true,true,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8474618,Marco Scandella,/api/v1/people/8474618,Marco,Scandella,6,1990-02-23,30,Montreal,QC,CAN,CAN,"6' 3""",212,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8474628,Michael Stone,/api/v1/people/8474628,Michael,Stone,26,1990-06-07,29,Winnipeg,MB,CAN,CAN,"6' 3""",210,true,false,false,false,R,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8474636,Michael Hutchinson,/api/v1/people/8474636,Michael,Hutchinson,35,1990-03-02,30,Barrie,ON,CAN,CAN,"6' 3""",198,true,false,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,G,Goalie,Goalie,G
+8474641,Adam Henrique,/api/v1/people/8474641,Adam,Henrique,14,1990-02-06,30,Brantford,ON,CAN,CAN,"6' 0""",188,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,C,Center,Forward,C
+8474651,Braden Holtby,/api/v1/people/8474651,Braden,Holtby,70,1989-09-16,30,Lloydminster,SK,CAN,CAN,"6' 2""",214,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,G,Goalie,Goalie,G
+8474668,Dale Weise,/api/v1/people/8474668,Dale,Weise,22,1988-08-05,31,Winnipeg,MB,CAN,CAN,"6' 2""",196,true,false,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,R,Right Wing,Forward,RW
+8474673,TJ Brodie,/api/v1/people/8474673,TJ,Brodie,7,1990-06-07,29,Chatham,ON,CAN,CAN,"6' 1""",185,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8474679,Gustav Nyquist,/api/v1/people/8474679,Gustav,Nyquist,14,1989-09-01,30,Halmstad,,SWE,SWE,"5' 11""",179,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8474683,Derek Grant,/api/v1/people/8474683,Derek,Grant,38,1990-04-20,29,Abbotsford,BC,CAN,CAN,"6' 3""",206,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8474685,Matt Calvert,/api/v1/people/8474685,Matt,Calvert,11,1989-12-24,30,Brandon,MB,CAN,CAN,"5' 11""",186,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,L,Left Wing,Forward,LW
+8474688,Greg Pateryn,/api/v1/people/8474688,Greg,Pateryn,29,1990-06-20,29,Sterling Heights,MI,USA,USA,"6' 3""",220,true,false,false,false,R,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8474697,Mark Borowiecki,/api/v1/people/8474697,Mark,Borowiecki,74,1989-07-12,30,Ottawa,ON,CAN,CAN,"6' 2""",204,true,true,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8474709,Matt Martin,/api/v1/people/8474709,Matt,Martin,17,1989-05-08,30,Windsor,ON,CAN,CAN,"6' 3""",220,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8474715,Cam Atkinson,/api/v1/people/8474715,Cam,Atkinson,13,1989-06-05,30,Riverside,CT,USA,USA,"5' 8""",175,true,false,false,false,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,R,Right Wing,Forward,RW
+8474716,Jared Spurgeon,/api/v1/people/8474716,Jared,Spurgeon,46,1989-11-29,30,Edmonton,AB,CAN,CAN,"5' 9""",167,true,false,false,false,R,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8474717,Mark Barberio,/api/v1/people/8474717,Mark,Barberio,44,1990-03-23,29,Montreal,QC,CAN,CAN,"6' 1""",200,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8474736,Zac Rinaldo,/api/v1/people/8474736,Zac,Rinaldo,36,1990-06-15,29,Mississauga,ON,CAN,CAN,"5' 10""",192,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8474774,Dalton Prout,/api/v1/people/8474774,Dalton,Prout,5,1990-03-13,30,Kingsville,ON,CAN,CAN,"6' 3""",215,true,false,false,false,R,I,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8474818,Jordie Benn,/api/v1/people/8474818,Jordie,Benn,4,1987-07-26,32,Victoria,BC,CAN,CAN,"6' 2""",199,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8474849,Antoine Roussel,/api/v1/people/8474849,Antoine,Roussel,26,1989-11-21,30,Roubaix,,FRA,FRA,"5' 11""",199,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,L,Left Wing,Forward,LW
+8474870,Tyler Johnson,/api/v1/people/8474870,Tyler,Johnson,9,1990-07-29,29,Spokane,WA,USA,USA,"5' 8""",182,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8474884,Mike Hoffman,/api/v1/people/8474884,Mike,Hoffman,68,1989-11-24,30,Kitchener,ON,CAN,CAN,"6' 0""",182,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,L,Left Wing,Forward,LW
+8474889,Martin Jones,/api/v1/people/8474889,Martin,Jones,31,1990-01-10,30,North Vancouver,BC,CAN,CAN,"6' 4""",190,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,G,Goalie,Goalie,G
+8475098,Tyler Bozak,/api/v1/people/8475098,Tyler,Bozak,21,1986-03-19,34,Regina,SK,CAN,CAN,"6' 1""",199,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8475149,Marcus Johansson,/api/v1/people/8475149,Marcus,Johansson,90,1990-10-06,29,Landskrona,,SWE,SWE,"6' 1""",205,true,true,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,L,Left Wing,Forward,LW
+8475151,Kyle Palmieri,/api/v1/people/8475151,Kyle,Palmieri,21,1991-02-01,29,Smithtown,NY,USA,USA,"5' 11""",185,true,true,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,R,Right Wing,Forward,RW
+8475156,Mikko Koskinen,/api/v1/people/8475156,Mikko,Koskinen,19,1988-07-18,31,Vantaa,,FIN,FIN,"6' 7""",202,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,G,Goalie,Goalie,G
+8475158,"Ryan O'Reilly",/api/v1/people/8475158,Ryan,"O'Reilly",90,1991-02-07,29,Clinton,ON,CAN,CAN,"6' 1""",216,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8475160,Kyle Clifford,/api/v1/people/8475160,Kyle,Clifford,73,1991-01-13,29,Ayr,ON,CAN,CAN,"6' 2""",211,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,L,Left Wing,Forward,LW
+8475163,Alex Chiasson,/api/v1/people/8475163,Alex,Chiasson,39,1990-10-01,29,Montreal,QC,CAN,CAN,"6' 4""",208,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,R,Right Wing,Forward,RW
+8475164,Jakob Silfverberg,/api/v1/people/8475164,Jakob,Silfverberg,33,1990-10-13,29,Gävle,,SWE,SWE,"6' 0""",208,true,true,false,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,R,Right Wing,Forward,RW
+8475166,John Tavares,/api/v1/people/8475166,John,Tavares,91,1990-09-20,29,Mississauga,ON,CAN,CAN,"6' 1""",215,true,false,true,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8475167,Victor Hedman,/api/v1/people/8475167,Victor,Hedman,77,1990-12-18,29,Ornskoldsvik,,SWE,SWE,"6' 6""",229,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8475168,Matt Duchene,/api/v1/people/8475168,Matt,Duchene,95,1991-01-16,29,Haliburton,ON,CAN,CAN,"5' 11""",195,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8475169,Evander Kane,/api/v1/people/8475169,Evander,Kane,9,1991-08-02,28,Vancouver,BC,CAN,CAN,"6' 2""",210,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,L,Left Wing,Forward,LW
+8475170,Brayden Schenn,/api/v1/people/8475170,Brayden,Schenn,10,1991-08-22,28,Saskatoon,SK,CAN,CAN,"6' 1""",200,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8475171,Oliver Ekman-Larsson,/api/v1/people/8475171,Oliver,Ekman-Larsson,23,1991-07-17,28,Karlskrona,,SWE,SWE,"6' 2""",200,true,false,true,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8475172,Nazem Kadri,/api/v1/people/8475172,Nazem,Kadri,91,1990-10-06,29,London,ON,CAN,CAN,"6' 0""",192,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8475176,Ryan Ellis,/api/v1/people/8475176,Ryan,Ellis,4,1991-01-03,29,Hamilton,ON,CAN,CAN,"5' 10""",180,true,true,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8475177,Calvin de Haan,/api/v1/people/8475177,Calvin,de Haan,44,1991-05-09,28,Carp,ON,CAN,CAN,"6' 1""",195,true,false,false,false,L,I,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8475178,Zack Kassian,/api/v1/people/8475178,Zack,Kassian,44,1991-01-24,29,Windsor,ON,CAN,CAN,"6' 3""",211,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,R,Right Wing,Forward,RW
+8475179,Dmitry Kulikov,/api/v1/people/8475179,Dmitry,Kulikov,7,1990-10-29,29,Lipetsk,,RUS,RUS,"6' 1""",204,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8475181,Nick Leddy,/api/v1/people/8475181,Nick,Leddy,2,1991-03-20,29,Eden Prairie,MN,USA,USA,"6' 0""",207,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8475184,Chris Kreider,/api/v1/people/8475184,Chris,Kreider,20,1991-04-30,28,Boxford,MA,USA,USA,"6' 3""",217,true,true,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,L,Left Wing,Forward,LW
+8475186,John Moore,/api/v1/people/8475186,John,Moore,27,1990-11-19,29,Winnetka,IL,USA,USA,"6' 2""",210,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8475188,Brayden McNabb,/api/v1/people/8475188,Brayden,McNabb,3,1991-01-21,29,Davidson,SK,CAN,CAN,"6' 4""",213,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8475191,Reilly Smith,/api/v1/people/8475191,Reilly,Smith,19,1991-04-01,28,Mimico,ON,CAN,CAN,"6' 1""",183,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,R,Right Wing,Forward,RW
+8475193,Tomas Tatar,/api/v1/people/8475193,Tomas,Tatar,90,1990-12-01,29,Ilava,,SVK,SVK,"5' 10""",183,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,L,Left Wing,Forward,LW
+8475195,Anders Nilsson,/api/v1/people/8475195,Anders,Nilsson,31,1990-03-19,30,Lulea,,SWE,SWE,"6' 6""",232,true,false,false,false,L,I,9,Ottawa Senators,/api/v1/teams/9,G,Goalie,Goalie,G
+8475197,Tyson Barrie,/api/v1/people/8475197,Tyson,Barrie,94,1991-07-26,28,Victoria,BC,CAN,CAN,"5' 11""",197,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8475200,Dmitry Orlov,/api/v1/people/8475200,Dmitry,Orlov,9,1991-07-23,28,Novokuznetsk,,RUS,RUS,"5' 11""",208,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8475204,Brandon Pirri,/api/v1/people/8475204,Brandon,Pirri,73,1991-04-10,28,Toronto,ON,CAN,CAN,"6' 1""",180,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8475208,Brian Dumoulin,/api/v1/people/8475208,Brian,Dumoulin,8,1991-09-06,28,Biddeford,ME,USA,USA,"6' 4""",207,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8475209,Richard Panik,/api/v1/people/8475209,Richard,Panik,14,1991-02-07,29,Martin,,SVK,SVK,"6' 2""",202,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,R,Right Wing,Forward,RW
+8475215,Robin Lehner,/api/v1/people/8475215,Robin,Lehner,90,1991-07-24,28,Gothenburg,,SWE,SWE,"6' 4""",240,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,G,Goalie,Goalie,G
+8475218,Mattias Ekholm,/api/v1/people/8475218,Mattias,Ekholm,14,1990-05-24,29,Borlange,,SWE,SWE,"6' 4""",215,true,true,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8475220,Marcus Foligno,/api/v1/people/8475220,Marcus,Foligno,17,1991-08-10,28,Buffalo,NY,USA,CAN,"6' 3""",224,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,L,Left Wing,Forward,LW
+8475222,Sami Vatanen,/api/v1/people/8475222,Sami,Vatanen,45,1991-06-03,28,Jyväskylä,,FIN,FIN,"5' 10""",185,true,false,false,false,R,I,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8475225,Craig Smith,/api/v1/people/8475225,Craig,Smith,15,1989-09-05,30,Madison,WI,USA,USA,"6' 1""",208,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,R,Right Wing,Forward,RW
+8475231,Casey Cizikas,/api/v1/people/8475231,Casey,Cizikas,53,1991-02-27,29,Toronto,ON,CAN,CAN,"5' 11""",195,true,false,false,false,L,I,2,New York Islanders,/api/v1/teams/2,C,Center,Forward,C
+8475233,David Savard,/api/v1/people/8475233,David,Savard,58,1990-10-22,29,St. Hyacinthe,QC,CAN,CAN,"6' 2""",229,true,false,false,false,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8475235,Nicolas Deslauriers,/api/v1/people/8475235,Nicolas,Deslauriers,20,1991-02-22,29,LaSalle,QC,CAN,CAN,"6' 3""",219,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8475236,Cody Eakin,/api/v1/people/8475236,Cody,Eakin,20,1991-05-24,28,Winnipeg,MB,CAN,CAN,"6' 0""",183,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8475246,Kevin Connauton,/api/v1/people/8475246,Kevin,Connauton,7,1990-02-23,30,Edmonton,AB,CAN,CAN,"6' 2""",205,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8475268,Gabriel Bourque,/api/v1/people/8475268,Gabriel,Bourque,57,1990-09-23,29,Rimouski,QC,CAN,CAN,"5' 10""",206,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,L,Left Wing,Forward,LW
+8475279,Ben Chiarot,/api/v1/people/8475279,Ben,Chiarot,8,1991-05-09,28,Hamilton,ON,CAN,CAN,"6' 3""",225,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8475287,Erik Haula,/api/v1/people/8475287,Erik,Haula,56,1991-03-23,28,Pori,,FIN,FIN,"6' 0""",193,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,L,Left Wing,Forward,LW
+8475311,Darcy Kuemper,/api/v1/people/8475311,Darcy,Kuemper,35,1990-05-05,29,Saskatoon,SK,CAN,CAN,"6' 5""",215,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,G,Goalie,Goalie,G
+8475314,Anders Lee,/api/v1/people/8475314,Anders,Lee,27,1990-07-03,29,Edina,MN,USA,USA,"6' 3""",231,true,false,true,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8475324,Nick Jensen,/api/v1/people/8475324,Nick,Jensen,3,1990-09-21,29,Rogers,MN,USA,USA,"6' 1""",196,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8475343,Nic Dowd,/api/v1/people/8475343,Nic,Dowd,26,1990-05-27,29,Huntsville,AL,USA,USA,"6' 1""",195,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,C,Center,Forward,C
+8475413,Justin Dowling,/api/v1/people/8475413,Justin,Dowling,37,1990-10-01,29,Calgary,AB,CAN,CAN,"5' 10""",180,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8475455,Brenden Dillon,/api/v1/people/8475455,Brenden,Dillon,4,1990-11-13,29,New Westminster,BC,CAN,CAN,"6' 4""",225,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8475461,Andrew Agozzino,/api/v1/people/8475461,Andrew,Agozzino,26,1991-01-03,29,Kleinburg,ON,CAN,CAN,"5' 10""",187,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8475462,Radko Gudas,/api/v1/people/8475462,Radko,Gudas,33,1990-06-05,29,Prague,,CZE,CZE,"6' 0""",205,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8475622,Carter Hutton,/api/v1/people/8475622,Carter,Hutton,40,1985-12-19,34,Thunder Bay,ON,CAN,CAN,"6' 0""",202,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,G,Goalie,Goalie,G
+8475625,Matt Irwin,/api/v1/people/8475625,Matt,Irwin,52,1987-11-29,32,Victoria,BC,CAN,CAN,"6' 1""",207,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8475660,Cam Talbot,/api/v1/people/8475660,Cam,Talbot,39,1987-07-05,32,Caledonia,ON,CAN,CAN,"6' 4""",196,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,G,Goalie,Goalie,G
+8475683,Sergei Bobrovsky,/api/v1/people/8475683,Sergei,Bobrovsky,72,1988-09-20,31,Novokuznetsk,,RUS,RUS,"6' 2""",187,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,G,Goalie,Goalie,G
+8475690,Christopher Tanev,/api/v1/people/8475690,Christopher,Tanev,8,1989-12-20,30,Toronto,ON,CAN,CAN,"6' 2""",197,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8475692,Mats Zuccarello,/api/v1/people/8475692,Mats,Zuccarello,36,1987-09-01,32,Oslo,,NOR,NOR,"5' 8""",178,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,R,Right Wing,Forward,RW
+8475714,Calle Jarnkrok,/api/v1/people/8475714,Calle,Jarnkrok,19,1991-09-25,28,Gävle,,SWE,SWE,"5' 11""",186,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8475716,Martin Marincin,/api/v1/people/8475716,Martin,Marincin,52,1992-02-18,28,Kosice,,SVK,SVK,"6' 5""",217,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8475718,Justin Holl,/api/v1/people/8475718,Justin,Holl,3,1992-01-30,28,Tonka Bay,MN,USA,USA,"6' 4""",210,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8475722,Jason Zucker,/api/v1/people/8475722,Jason,Zucker,16,1992-01-16,28,Newport Beach,CA,USA,USA,"5' 11""",192,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,L,Left Wing,Forward,LW
+8475726,Tyler Toffoli,/api/v1/people/8475726,Tyler,Toffoli,73,1992-04-24,27,Scarborough,ON,CAN,CAN,"6' 0""",197,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,R,Right Wing,Forward,RW
+8475728,Johan Larsson,/api/v1/people/8475728,Johan,Larsson,22,1992-07-25,27,Lau,,SWE,SWE,"5' 11""",204,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8475730,Stephen Johns,/api/v1/people/8475730,Stephen,Johns,28,1992-04-18,27,Ellwood City,PA,USA,USA,"6' 4""",225,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8475735,Greg McKegg,/api/v1/people/8475735,Greg,McKegg,14,1992-06-17,27,St. Thomas,ON,CAN,CAN,"6' 0""",192,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8475738,Jordan Weal,/api/v1/people/8475738,Jordan,Weal,43,1992-04-15,27,North Vancouver,BC,CAN,CAN,"5' 10""",180,true,false,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,C,Center,Forward,C
+8475744,Evgeny Kuznetsov,/api/v1/people/8475744,Evgeny,Kuznetsov,92,1992-05-19,27,Chelyabinsk,,RUS,RUS,"6' 2""",197,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,C,Center,Forward,C
+8475745,Charlie Coyle,/api/v1/people/8475745,Charlie,Coyle,13,1992-03-02,28,E. Weymouth,MA,USA,USA,"6' 3""",220,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8475747,Patrik Nemeth,/api/v1/people/8475747,Patrik,Nemeth,22,1992-02-08,28,Stockholm,,SWE,SWE,"6' 3""",228,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8475750,Jon Merrill,/api/v1/people/8475750,Jon,Merrill,15,1992-02-03,28,Oklahoma City,OK,USA,USA,"6' 3""",195,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8475752,Tyler Pitlick,/api/v1/people/8475752,Tyler,Pitlick,18,1991-11-01,28,Minneapolis,MN,USA,USA,"6' 2""",200,true,false,false,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8475753,Justin Faulk,/api/v1/people/8475753,Justin,Faulk,72,1992-03-20,28,South St. Paul,MN,USA,USA,"6' 0""",217,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8475754,Brock Nelson,/api/v1/people/8475754,Brock,Nelson,29,1991-10-15,28,Warroad,MN,USA,USA,"6' 3""",212,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,C,Center,Forward,C
+8475760,Nick Bjugstad,/api/v1/people/8475760,Nick,Bjugstad,27,1992-07-17,27,Minneapolis,MN,USA,USA,"6' 6""",215,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8475762,Derek Forbort,/api/v1/people/8475762,Derek,Forbort,20,1992-03-04,28,Duluth,MN,USA,USA,"6' 4""",219,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8475763,Kevin Hayes,/api/v1/people/8475763,Kevin,Hayes,13,1992-05-08,27,Dorchester,MA,USA,USA,"6' 5""",216,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8475764,Cam Fowler,/api/v1/people/8475764,Cam,Fowler,4,1991-12-05,28,Windsor,ON,CAN,USA,"6' 1""",207,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8475765,Vladimir Tarasenko,/api/v1/people/8475765,Vladimir,Tarasenko,91,1991-12-13,28,Yaroslavl,,RUS,RUS,"6' 0""",225,true,true,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,R,Right Wing,Forward,RW
+8475766,Austin Watson,/api/v1/people/8475766,Austin,Watson,51,1992-01-13,28,Ann Arbor,MI,USA,USA,"6' 4""",204,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,L,Left Wing,Forward,LW
+8475768,Jaden Schwartz,/api/v1/people/8475768,Jaden,Schwartz,17,1992-06-25,27,Wilcox,SK,CAN,CAN,"5' 10""",190,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8475772,Riley Sheahan,/api/v1/people/8475772,Riley,Sheahan,23,1991-12-07,28,St. Catharines,ON,CAN,CAN,"6' 3""",214,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
+8475780,Chris Wagner,/api/v1/people/8475780,Chris,Wagner,14,1991-05-27,28,Walpole,MA,USA,USA,"6' 0""",198,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,R,Right Wing,Forward,RW
+8475784,Jeff Skinner,/api/v1/people/8475784,Jeff,Skinner,53,1992-05-16,27,Toronto,ON,CAN,CAN,"5' 11""",195,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,L,Left Wing,Forward,LW
+8475786,Zach Hyman,/api/v1/people/8475786,Zach,Hyman,11,1992-06-09,27,Toronto,ON,CAN,CAN,"6' 1""",211,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,L,Left Wing,Forward,LW
+8475789,Jack Campbell,/api/v1/people/8475789,Jack,Campbell,36,1992-01-09,28,Port Huron,MI,USA,USA,"6' 2""",197,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,G,Goalie,Goalie,G
+8475790,Erik Gudbranson,/api/v1/people/8475790,Erik,Gudbranson,6,1992-01-07,28,Ottawa,ON,CAN,CAN,"6' 5""",217,true,false,false,false,R,I,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8475791,Taylor Hall,/api/v1/people/8475791,Taylor,Hall,91,1991-11-14,28,Calgary,AB,CAN,CAN,"6' 1""",205,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,L,Left Wing,Forward,LW
+8475792,Brett Connolly,/api/v1/people/8475792,Brett,Connolly,10,1992-05-02,27,Campbell River,BC,CAN,CAN,"6' 3""",192,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,R,Right Wing,Forward,RW
+8475793,Ryan Johansen,/api/v1/people/8475793,Ryan,Johansen,92,1992-07-31,27,Vancouver,BC,CAN,CAN,"6' 3""",218,true,true,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8475794,Tyler Seguin,/api/v1/people/8475794,Tyler,Seguin,91,1992-01-31,28,Brampton,ON,CAN,CAN,"6' 1""",200,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8475796,Mark Pysyk,/api/v1/people/8475796,Mark,Pysyk,13,1992-01-11,28,Sherwood Park,AB,CAN,CAN,"6' 1""",196,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8475797,Jarred Tinordi,/api/v1/people/8475797,Jarred,Tinordi,24,1992-02-20,28,Burnsville,MN,USA,USA,"6' 6""",230,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8475798,Mikael Granlund,/api/v1/people/8475798,Mikael,Granlund,64,1992-02-26,28,Oulu,,FIN,FIN,"5' 10""",185,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8475799,Nino Niederreiter,/api/v1/people/8475799,Nino,Niederreiter,21,1992-09-08,27,Chur,,CHE,CHE,"6' 2""",218,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,R,Right Wing,Forward,RW
+8475807,Joakim Nordstrom,/api/v1/people/8475807,Joakim,Nordstrom,20,1992-02-25,28,Stockholm,,SWE,SWE,"6' 1""",194,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8475810,Bryan Rust,/api/v1/people/8475810,Bryan,Rust,17,1992-05-11,27,Pontiac,MI,USA,USA,"5' 11""",192,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,R,Right Wing,Forward,RW
+8475820,Joonas Donskoi,/api/v1/people/8475820,Joonas,Donskoi,72,1992-04-13,27,Raahe,,FIN,FIN,"6' 0""",190,true,false,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,R,Right Wing,Forward,RW
+8475831,Philipp Grubauer,/api/v1/people/8475831,Philipp,Grubauer,31,1991-11-25,28,Rosenheim,,DEU,DEU,"6' 1""",188,true,false,false,false,L,I,21,Colorado Avalanche,/api/v1/teams/21,G,Goalie,Goalie,G
+8475832,Tom Kuhnhackl,/api/v1/people/8475832,Tom,Kuhnhackl,14,1992-01-21,28,Landshut,,DEU,DEU,"6' 2""",196,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,R,Right Wing,Forward,RW
+8475834,Marcus Sorensen,/api/v1/people/8475834,Marcus,Sorensen,20,1992-04-07,27,Sodertalje,,SWE,SWE,"5' 11""",175,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,L,Left Wing,Forward,LW
+8475839,Louis Domingue,/api/v1/people/8475839,Louis,Domingue,30,1992-03-06,28,St-Hyacinthe,QC,CAN,CAN,"6' 3""",208,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,G,Goalie,Goalie,G
+8475841,Tim Heed,/api/v1/people/8475841,Tim,Heed,72,1991-01-27,29,Gothenburg,,SWE,SWE,"5' 11""",180,true,false,false,false,R,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8475848,Brendan Gallagher,/api/v1/people/8475848,Brendan,Gallagher,11,1992-05-06,27,Edmonton,AB,CAN,CAN,"5' 9""",184,true,true,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,R,Right Wing,Forward,RW
+8475852,Petr Mrazek,/api/v1/people/8475852,Petr,Mrazek,34,1992-02-14,28,Ostrava,,CZE,CZE,"6' 1""",190,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,G,Goalie,Goalie,G
+8475855,Jesper Fast,/api/v1/people/8475855,Jesper,Fast,17,1991-12-02,28,Nassjo,,SWE,SWE,"6' 1""",191,true,true,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,R,Right Wing,Forward,RW
+8475868,Anthony Bitetto,/api/v1/people/8475868,Anthony,Bitetto,2,1990-07-15,29,Island Park,NY,USA,USA,"6' 1""",210,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8475869,Brandon Davidson,/api/v1/people/8475869,Brandon,Davidson,21,1991-08-21,28,Taber,AB,CAN,CAN,"6' 2""",208,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8475883,Frederik Andersen,/api/v1/people/8475883,Frederik,Andersen,31,1989-10-02,30,Herning,,DNK,DNK,"6' 4""",238,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,G,Goalie,Goalie,G
+8475906,John Klingberg,/api/v1/people/8475906,John,Klingberg,3,1992-08-14,27,Gothenburg,,SWE,SWE,"6' 3""",190,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8475907,Micheal Ferland,/api/v1/people/8475907,Micheal,Ferland,79,1992-04-20,27,Swan River,MB,CAN,CAN,"6' 1""",217,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,L,Left Wing,Forward,LW
+8475913,Mark Stone,/api/v1/people/8475913,Mark,Stone,61,1992-05-13,27,Winnipeg,MB,CAN,CAN,"6' 3""",202,true,false,false,false,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,R,Right Wing,Forward,RW
+8476166,Taylor Fedun,/api/v1/people/8476166,Taylor,Fedun,42,1988-06-04,31,Edmonton,AB,CAN,CAN,"6' 1""",200,true,false,false,false,R,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8476191,Kevan Miller,/api/v1/people/8476191,Kevan,Miller,86,1987-11-15,32,Los Angeles,CA,USA,USA,"6' 2""",210,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8476278,Colin Blackwell,/api/v1/people/8476278,Colin,Blackwell,42,1993-03-28,26,Lawrence,MA,USA,USA,"5' 9""",190,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8476285,Matthew Peca,/api/v1/people/8476285,Matthew,Peca,53,1993-04-27,26,Petawawa,ON,CAN,CAN,"5' 9""",182,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,C,Center,Forward,C
+8476288,Ryan Dzingel,/api/v1/people/8476288,Ryan,Dzingel,18,1992-03-09,28,Wheaton,IL,USA,USA,"6' 0""",190,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,C,Center,Forward,C
+8476292,Ondrej Palat,/api/v1/people/8476292,Ondrej,Palat,18,1991-03-28,28,Frydek-Mistek,,CZE,CZE,"5' 11""",194,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,L,Left Wing,Forward,LW
+8476312,Josh Manson,/api/v1/people/8476312,Josh,Manson,42,1991-10-07,28,Hinsdale,IL,USA,CAN,"6' 3""",224,true,true,false,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8476316,Laurent Brossoit,/api/v1/people/8476316,Laurent,Brossoit,30,1993-03-23,26,Port Alberni,BC,CAN,CAN,"6' 3""",204,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,G,Goalie,Goalie,G
+8476326,Josh Archibald,/api/v1/people/8476326,Josh,Archibald,15,1992-10-06,27,Regina,SK,CAN,CAN,"5' 10""",176,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,R,Right Wing,Forward,RW
+8476329,Travis Boyd,/api/v1/people/8476329,Travis,Boyd,72,1993-09-14,26,Hopkins,MN,USA,USA,"6' 0""",190,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,C,Center,Forward,C
+8476331,Dylan DeMelo,/api/v1/people/8476331,Dylan,DeMelo,12,1993-05-01,26,London,ON,CAN,CAN,"6' 0""",191,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8476346,Johnny Gaudreau,/api/v1/people/8476346,Johnny,Gaudreau,13,1993-08-13,26,Salem,NJ,USA,USA,"5' 9""",165,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,L,Left Wing,Forward,LW
+8476356,Tobias Rieder,/api/v1/people/8476356,Tobias,Rieder,16,1993-01-10,27,Landshut,,DEU,DEU,"5' 11""",186,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8476368,Fredrik Claesson,/api/v1/people/8476368,Fredrik,Claesson,33,1992-11-24,27,Stockholm,,SWE,SWE,"6' 1""",196,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8476372,Nick Seeler,/api/v1/people/8476372,Nick,Seeler,55,1993-06-03,26,Eden Prairie,MN,USA,USA,"6' 2""",201,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8476374,Sean Kuraly,/api/v1/people/8476374,Sean,Kuraly,52,1993-01-20,27,Dublin,OH,USA,USA,"6' 2""",213,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8476381,Andrew Shaw,/api/v1/people/8476381,Andrew,Shaw,65,1991-07-20,28,Belleville,ON,CAN,CAN,"5' 11""",182,true,false,false,false,R,I,16,Chicago Blackhawks,/api/v1/teams/16,R,Right Wing,Forward,RW
+8476389,Vincent Trocheck,/api/v1/people/8476389,Vincent,Trocheck,16,1993-07-11,26,Pittsburgh,PA,USA,USA,"5' 10""",183,true,false,false,false,R,Y,12,Carolina Hurricanes,/api/v1/teams/12,C,Center,Forward,C
+8476392,Adam Lowry,/api/v1/people/8476392,Adam,Lowry,17,1993-03-29,26,St. Louis,MO,USA,USA,"6' 5""",210,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8476393,Nick Cousins,/api/v1/people/8476393,Nick,Cousins,21,1993-07-20,26,Belleville,ON,CAN,CAN,"5' 11""",183,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8476399,Blake Coleman,/api/v1/people/8476399,Blake,Coleman,20,1991-11-28,28,Plano,TX,USA,USA,"5' 11""",200,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8476400,Logan Shaw,/api/v1/people/8476400,Logan,Shaw,38,1992-10-05,27,Glace Bay,NS,CAN,CAN,"6' 3""",208,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,R,Right Wing,Forward,RW
+8476406,Nicholas Shore,/api/v1/people/8476406,Nicholas,Shore,21,1992-09-26,27,Denver,CO,USA,USA,"6' 1""",198,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8476410,Josh Leivo,/api/v1/people/8476410,Josh,Leivo,17,1993-05-26,26,Innisfil,ON,CAN,CAN,"6' 2""",192,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,L,Left Wing,Forward,LW
+8476412,Jordan Binnington,/api/v1/people/8476412,Jordan,Binnington,50,1993-07-11,26,Richmond Hill,ON,CAN,CAN,"6' 1""",174,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,G,Goalie,Goalie,G
+8476419,Jean-Gabriel Pageau,/api/v1/people/8476419,Jean-Gabriel,Pageau,44,1992-11-11,27,Ottawa,ON,CAN,CAN,"5' 10""",180,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,C,Center,Forward,C
+8476422,Mike Reilly,/api/v1/people/8476422,Mike,Reilly,5,1993-07-13,26,Chicago,IL,USA,USA,"6' 1""",200,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8476428,Rocco Grimaldi,/api/v1/people/8476428,Rocco,Grimaldi,23,1993-02-08,27,Anaheim,CA,USA,USA,"5' 6""",180,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,R,Right Wing,Forward,RW
+8476429,Scott Mayfield,/api/v1/people/8476429,Scott,Mayfield,24,1992-10-14,27,St. Louis,MO,USA,USA,"6' 5""",223,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8476432,Boone Jenner,/api/v1/people/8476432,Boone,Jenner,38,1993-06-15,26,Dorchester,ON,CAN,CAN,"6' 2""",208,true,true,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8476434,John Gibson,/api/v1/people/8476434,John,Gibson,36,1993-07-14,26,Pittsburgh,PA,USA,USA,"6' 2""",207,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,G,Goalie,Goalie,G
+8476437,Victor Rask,/api/v1/people/8476437,Victor,Rask,49,1993-03-01,27,Leksand,,SWE,SWE,"6' 2""",193,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8476438,Brandon Saad,/api/v1/people/8476438,Brandon,Saad,20,1992-10-27,27,Pittsburgh,PA,USA,USA,"6' 1""",206,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
+8476441,Joel Edmundson,/api/v1/people/8476441,Joel,Edmundson,6,1993-06-28,26,Brandon,MB,CAN,CAN,"6' 4""",215,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8476442,Matt Nieto,/api/v1/people/8476442,Matt,Nieto,83,1992-11-05,27,Long Beach,CA,USA,USA,"5' 11""",185,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,L,Left Wing,Forward,LW
+8476443,Xavier Ouellet,/api/v1/people/8476443,Xavier,Ouellet,61,1993-07-29,26,Bayonne,,FRA,FRA,"6' 1""",193,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8476448,William Karlsson,/api/v1/people/8476448,William,Karlsson,71,1993-01-08,27,Marsta,,SWE,SWE,"6' 0""",195,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8476449,Scott Harrington,/api/v1/people/8476449,Scott,Harrington,4,1993-03-10,27,Kingston,ON,CAN,CAN,"6' 2""",204,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8476453,Nikita Kucherov,/api/v1/people/8476453,Nikita,Kucherov,86,1993-06-17,26,Maykop,,RUS,RUS,"5' 11""",180,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,R,Right Wing,Forward,RW
+8476454,Ryan Nugent-Hopkins,/api/v1/people/8476454,Ryan,Nugent-Hopkins,93,1993-04-12,26,Burnaby,BC,CAN,CAN,"6' 0""",184,true,true,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
+8476455,Gabriel Landeskog,/api/v1/people/8476455,Gabriel,Landeskog,92,1992-11-23,27,Stockholm,,SWE,SWE,"6' 1""",215,true,false,true,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,L,Left Wing,Forward,LW
+8476456,Jonathan Huberdeau,/api/v1/people/8476456,Jonathan,Huberdeau,11,1993-06-04,26,Saint-Jerome,QC,CAN,CAN,"6' 1""",202,true,true,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,L,Left Wing,Forward,LW
+8476457,Adam Larsson,/api/v1/people/8476457,Adam,Larsson,6,1992-11-12,27,Skellefteå,,SWE,SWE,"6' 3""",208,true,true,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8476458,Ryan Strome,/api/v1/people/8476458,Ryan,Strome,16,1993-07-11,26,Mississauga,ON,CAN,CAN,"6' 1""",193,true,false,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8476459,Mika Zibanejad,/api/v1/people/8476459,Mika,Zibanejad,93,1993-04-18,26,Huddinge,,SWE,SWE,"6' 2""",208,true,true,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8476460,Mark Scheifele,/api/v1/people/8476460,Mark,Scheifele,55,1993-03-15,27,Kitchener,ON,CAN,CAN,"6' 3""",207,true,true,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8476461,Sean Couturier,/api/v1/people/8476461,Sean,Couturier,14,1992-12-07,27,Phoenix,AZ,USA,CAN,"6' 3""",211,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8476462,Dougie Hamilton,/api/v1/people/8476462,Dougie,Hamilton,19,1993-06-17,26,Toronto,ON,CAN,CAN,"6' 6""",229,true,false,false,false,R,I,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8476463,Jonas Brodin,/api/v1/people/8476463,Jonas,Brodin,25,1993-07-12,26,Karlstad,,SWE,SWE,"6' 1""",194,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8476467,Jamie Oleksiak,/api/v1/people/8476467,Jamie,Oleksiak,2,1992-12-21,27,Toronto,ON,CAN,CAN,"6' 7""",255,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8476468,J.T. Miller,/api/v1/people/8476468,J.T.,Miller,9,1993-03-14,27,East Palestine,OH,USA,USA,"6' 1""",218,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8476469,Joel Armia,/api/v1/people/8476469,Joel,Armia,40,1993-05-31,26,Pori,,FIN,FIN,"6' 4""",213,true,false,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,R,Right Wing,Forward,RW
+8476470,Nathan Beaulieu,/api/v1/people/8476470,Nathan,Beaulieu,88,1992-12-05,27,Strathroy,ON,CAN,CAN,"6' 2""",200,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8476472,Oscar Klefbom,/api/v1/people/8476472,Oscar,Klefbom,77,1993-07-20,26,Karlstad,,SWE,SWE,"6' 3""",216,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8476473,Connor Murphy,/api/v1/people/8476473,Connor,Murphy,5,1993-03-26,26,Dublin,OH,USA,USA,"6' 4""",212,true,false,false,false,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8476474,Stefan Noesen,/api/v1/people/8476474,Stefan,Noesen,11,1993-02-12,27,Plano,TX,USA,USA,"6' 1""",205,true,false,false,false,R,Y,28,San Jose Sharks,/api/v1/teams/28,R,Right Wing,Forward,RW
+8476479,Phillip Danault,/api/v1/people/8476479,Phillip,Danault,24,1993-02-24,27,Victoriaville,QC,CAN,CAN,"6' 1""",201,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,C,Center,Forward,C
+8476480,Vladislav Namestnikov,/api/v1/people/8476480,Vladislav,Namestnikov,90,1992-11-22,27,Zhukovskiy,,RUS,RUS,"6' 0""",183,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8476483,Rickard Rakell,/api/v1/people/8476483,Rickard,Rakell,67,1993-05-05,26,Sundbyberg,,SWE,SWE,"6' 0""",196,true,false,false,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8476525,Colin Miller,/api/v1/people/8476525,Colin,Miller,33,1992-10-29,27,Sault Ste. Marie,ON,CAN,CAN,"6' 1""",193,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8476539,Jonathan Marchessault,/api/v1/people/8476539,Jonathan,Marchessault,81,1990-12-27,29,Cap-Rouge,QC,CAN,CAN,"5' 9""",180,true,false,false,false,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8476624,Barclay Goodrow,/api/v1/people/8476624,Barclay,Goodrow,19,1993-02-26,27,Toronto,ON,CAN,CAN,"6' 2""",215,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8476779,Brad Hunt,/api/v1/people/8476779,Brad,Hunt,77,1988-08-24,31,Maple Ridge,BC,CAN,CAN,"5' 9""",176,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8476792,Torey Krug,/api/v1/people/8476792,Torey,Krug,47,1991-04-12,28,Livonia,MI,USA,USA,"5' 9""",186,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8476822,Luke Glendening,/api/v1/people/8476822,Luke,Glendening,41,1989-04-28,30,Grand Rapids,MI,USA,USA,"5' 11""",191,true,true,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8476826,Yanni Gourde,/api/v1/people/8476826,Yanni,Gourde,37,1991-12-15,28,Saint-Narcisse,QC,CAN,CAN,"5' 9""",173,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8476850,Ryan Murray,/api/v1/people/8476850,Ryan,Murray,27,1993-09-27,26,Regina,SK,CAN,CAN,"6' 1""",206,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8476851,Alex Galchenyuk,/api/v1/people/8476851,Alex,Galchenyuk,27,1994-02-12,26,Milwaukee,WI,USA,USA,"6' 1""",207,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8476853,Morgan Rielly,/api/v1/people/8476853,Morgan,Rielly,44,1994-03-09,26,Vancouver,BC,CAN,CAN,"6' 1""",219,true,true,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8476854,Hampus Lindholm,/api/v1/people/8476854,Hampus,Lindholm,47,1994-01-20,26,Helsingborg,,SWE,SWE,"6' 3""",208,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8476856,Matt Dumba,/api/v1/people/8476856,Matt,Dumba,24,1994-07-25,25,Regina,SK,CAN,CAN,"6' 0""",180,true,false,false,false,R,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8476858,Phillip Di Giuseppe,/api/v1/people/8476858,Phillip,Di Giuseppe,33,1993-10-09,26,Toronto,ON,CAN,CAN,"6' 0""",193,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,L,Left Wing,Forward,LW
+8476869,Brady Skjei,/api/v1/people/8476869,Brady,Skjei,76,1994-03-26,25,Lakeville,MN,USA,USA,"6' 3""",210,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8476870,Stefan Matteau,/api/v1/people/8476870,Stefan,Matteau,23,1994-02-23,26,Chicago,IL,USA,USA,"6' 2""",220,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8476871,Tanner Pearson,/api/v1/people/8476871,Tanner,Pearson,70,1992-08-10,27,Kitchener,ON,CAN,CAN,"6' 1""",201,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,L,Left Wing,Forward,LW
+8476872,Scott Laughton,/api/v1/people/8476872,Scott,Laughton,21,1994-05-30,25,Oakville,ON,CAN,CAN,"6' 1""",190,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,C,Center,Forward,C
+8476873,Mark Jankowski,/api/v1/people/8476873,Mark,Jankowski,77,1994-09-13,25,Hamilton,ON,CAN,CAN,"6' 4""",212,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8476874,Olli Maatta,/api/v1/people/8476874,Olli,Maatta,6,1994-08-22,25,Jyväskylä,,FIN,FIN,"6' 2""",206,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8476875,Mike Matheson,/api/v1/people/8476875,Mike,Matheson,19,1994-02-27,26,Pointe-Claire,QC,CAN,CAN,"6' 2""",188,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8476876,Malcolm Subban,/api/v1/people/8476876,Malcolm,Subban,30,1993-12-21,26,Toronto,ON,CAN,CAN,"6' 2""",215,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,G,Goalie,Goalie,G
+8476878,Zemgus Girgensons,/api/v1/people/8476878,Zemgus,Girgensons,28,1994-01-05,26,Riga,,LVA,LVA,"6' 2""",211,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8476879,Cody Ceci,/api/v1/people/8476879,Cody,Ceci,83,1993-12-21,26,Ottawa,ON,CAN,CAN,"6' 2""",210,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8476880,Tom Wilson,/api/v1/people/8476880,Tom,Wilson,43,1994-03-29,25,Toronto,ON,CAN,CAN,"6' 4""",220,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,R,Right Wing,Forward,RW
+8476881,Tomas Hertl,/api/v1/people/8476881,Tomas,Hertl,48,1993-11-12,26,Praha,,CZE,CZE,"6' 2""",215,true,true,false,false,L,I,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8476882,Teuvo Teravainen,/api/v1/people/8476882,Teuvo,Teravainen,86,1994-09-11,25,Helsinki,,FIN,FIN,"5' 11""",191,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,L,Left Wing,Forward,LW
+8476883,Andrei Vasilevskiy,/api/v1/people/8476883,Andrei,Vasilevskiy,88,1994-07-25,25,Tyumen,,RUS,RUS,"6' 3""",216,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,G,Goalie,Goalie,G
+8476885,Jacob Trouba,/api/v1/people/8476885,Jacob,Trouba,8,1994-02-26,26,Rochester,MI,USA,USA,"6' 3""",209,true,false,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8476886,Slater Koekkoek,/api/v1/people/8476886,Slater,Koekkoek,68,1994-02-18,26,Winchester,ON,CAN,CAN,"6' 2""",193,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8476887,Filip Forsberg,/api/v1/people/8476887,Filip,Forsberg,9,1994-08-13,25,Ostervala,,SWE,SWE,"6' 1""",205,true,true,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,L,Left Wing,Forward,LW
+8476889,Radek Faksa,/api/v1/people/8476889,Radek,Faksa,12,1994-01-09,26,Vitkov,,CZE,CZE,"6' 3""",220,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8476891,Matt Grzelcyk,/api/v1/people/8476891,Matt,Grzelcyk,48,1994-01-05,26,Charlestown,MA,USA,USA,"5' 9""",174,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8476892,Colton Parayko,/api/v1/people/8476892,Colton,Parayko,55,1993-05-12,26,St. Albert,AB,CAN,CAN,"6' 6""",230,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8476894,Brendan Leipsic,/api/v1/people/8476894,Brendan,Leipsic,28,1994-05-19,25,Winnipeg,MB,CAN,CAN,"5' 11""",180,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,L,Left Wing,Forward,LW
+8476897,Oskar Sundqvist,/api/v1/people/8476897,Oskar,Sundqvist,70,1994-03-23,25,Boden,,SWE,SWE,"6' 3""",209,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8476899,Matt Murray,/api/v1/people/8476899,Matt,Murray,30,1994-05-25,25,Thunder Bay,ON,CAN,CAN,"6' 4""",178,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,G,Goalie,Goalie,G
+8476902,Esa Lindell,/api/v1/people/8476902,Esa,Lindell,23,1994-05-23,25,Vantaa,,FIN,FIN,"6' 3""",215,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8476904,Chris Driedger,/api/v1/people/8476904,Chris,Driedger,60,1994-05-18,25,Winnipeg,MB,CAN,CAN,"6' 4""",205,true,false,false,true,L,Y,13,Florida Panthers,/api/v1/teams/13,G,Goalie,Goalie,G
+8476905,Chandler Stephenson,/api/v1/people/8476905,Chandler,Stephenson,20,1994-04-22,25,Saskatoon,SK,CAN,CAN,"6' 0""",208,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8476906,Shayne Gostisbehere,/api/v1/people/8476906,Shayne,Gostisbehere,53,1993-04-20,26,Pembroke Pines,FL,USA,USA,"5' 11""",180,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8476907,Mackenzie MacEachern,/api/v1/people/8476907,Mackenzie,MacEachern,28,1994-03-09,26,Bloomfield Hills,MI,USA,USA,"6' 2""",190,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8476913,Devin Shore,/api/v1/people/8476913,Devin,Shore,74,1994-07-19,25,Ajax,ON,CAN,CAN,"6' 1""",206,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8476914,Joonas Korpisalo,/api/v1/people/8476914,Joonas,Korpisalo,70,1994-04-28,25,Pori,,FIN,FIN,"6' 3""",191,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,G,Goalie,Goalie,G
+8476915,Jujhar Khaira,/api/v1/people/8476915,Jujhar,Khaira,16,1994-08-13,25,Surrey,BC,CAN,CAN,"6' 4""",212,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,L,Left Wing,Forward,LW
+8476917,Adam Pelech,/api/v1/people/8476917,Adam,Pelech,3,1994-08-16,25,Toronto,ON,CAN,CAN,"6' 3""",218,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8476918,Jimmy Vesey,/api/v1/people/8476918,Jimmy,Vesey,13,1993-05-26,26,Boston,MA,USA,USA,"6' 3""",202,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,L,Left Wing,Forward,LW
+8476919,Chris Tierney,/api/v1/people/8476919,Chris,Tierney,71,1994-07-01,25,Keswick,ON,CAN,CAN,"6' 1""",195,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,C,Center,Forward,C
+8476921,Jordan Martinook,/api/v1/people/8476921,Jordan,Martinook,48,1992-07-25,27,Brandon,MB,CAN,CAN,"6' 0""",196,true,true,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,L,Left Wing,Forward,LW
+8476923,Damon Severson,/api/v1/people/8476923,Damon,Severson,28,1994-08-07,25,Melville,SK,CAN,CAN,"6' 2""",205,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8476924,Martin Frk,/api/v1/people/8476924,Martin,Frk,29,1993-10-05,26,Pelhrimov,,CZE,CZE,"6' 1""",205,true,false,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,R,Right Wing,Forward,RW
+8476925,Colton Sissons,/api/v1/people/8476925,Colton,Sissons,10,1993-11-05,26,North Vancouver,BC,CAN,CAN,"6' 1""",200,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,C,Center,Forward,C
+8476927,Teddy Blueger,/api/v1/people/8476927,Teddy,Blueger,53,1994-08-15,25,Riga,,LVA,LVA,"6' 0""",185,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8476931,Jake McCabe,/api/v1/people/8476931,Jake,McCabe,19,1993-10-12,26,Eau Claire,WI,USA,USA,"6' 1""",204,true,true,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8476934,Brock McGinn,/api/v1/people/8476934,Brock,McGinn,23,1994-02-02,26,Fergus,ON,CAN,CAN,"6' 0""",187,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,L,Left Wing,Forward,LW
+8476941,Connor Carrick,/api/v1/people/8476941,Connor,Carrick,5,1994-04-13,25,Orland Park,IL,USA,USA,"5' 11""",192,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8476945,Connor Hellebuyck,/api/v1/people/8476945,Connor,Hellebuyck,37,1993-05-19,26,Commerce,MI,USA,USA,"6' 4""",207,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,G,Goalie,Goalie,G
+8476947,Nikolai Prokhorkin,/api/v1/people/8476947,Nikolai,Prokhorkin,74,1993-09-17,26,Chelyabinsk,,RUS,RUS,"6' 3""",190,true,false,false,true,L,Y,26,Los Angeles Kings,/api/v1/teams/26,L,Left Wing,Forward,LW
+8476948,Charles Hudon,/api/v1/people/8476948,Charles,Hudon,54,1994-06-23,25,Alma,QC,CAN,CAN,"5' 10""",190,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,L,Left Wing,Forward,LW
+8476952,Dominic Toninato,/api/v1/people/8476952,Dominic,Toninato,14,1994-03-09,26,Duluth,MN,USA,USA,"6' 2""",191,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8476958,Jaccob Slavin,/api/v1/people/8476958,Jaccob,Slavin,74,1994-05-01,25,Denver,CO,USA,USA,"6' 3""",207,true,true,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8476960,Andreas Athanasiou,/api/v1/people/8476960,Andreas,Athanasiou,28,1994-08-06,25,Woodbridge,ON,CAN,CAN,"6' 2""",188,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,L,Left Wing,Forward,LW
+8476967,Brett Kulak,/api/v1/people/8476967,Brett,Kulak,77,1994-01-06,26,Edmonton,AB,CAN,CAN,"6' 2""",190,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8476975,Cedric Paquette,/api/v1/people/8476975,Cedric,Paquette,13,1993-08-13,26,Gaspe,QC,CAN,CAN,"6' 1""",204,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8476979,Erik Gustafsson,/api/v1/people/8476979,Erik,Gustafsson,56,1992-03-14,28,Nynashamn,,SWE,SWE,"6' 0""",197,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8476981,Josh Anderson,/api/v1/people/8476981,Josh,Anderson,77,1994-05-07,25,Burlington,ON,CAN,CAN,"6' 3""",222,true,false,false,false,R,I,29,Columbus Blue Jackets,/api/v1/teams/29,R,Right Wing,Forward,RW
+8476988,Matt Benning,/api/v1/people/8476988,Matt,Benning,83,1994-05-25,25,Edmonton,AB,CAN,CAN,"6' 1""",203,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8476994,Vinnie Hinostroza,/api/v1/people/8476994,Vinnie,Hinostroza,13,1994-04-03,25,Chicago,IL,USA,USA,"5' 9""",173,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,R,Right Wing,Forward,RW
+8476999,Linus Ullmark,/api/v1/people/8476999,Linus,Ullmark,35,1993-07-31,26,Lugnvik,,SWE,SWE,"6' 4""",215,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,G,Goalie,Goalie,G
+8477015,Connor Brown,/api/v1/people/8477015,Connor,Brown,28,1994-01-14,26,Toronto,ON,CAN,CAN,"6' 0""",186,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,R,Right Wing,Forward,RW
+8477018,Ben Hutton,/api/v1/people/8477018,Ben,Hutton,15,1993-04-20,26,Brockville,ON,CAN,CAN,"6' 2""",206,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8477021,Alexander Kerfoot,/api/v1/people/8477021,Alexander,Kerfoot,15,1994-08-11,25,Vancouver,BC,CAN,CAN,"5' 10""",185,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8477038,Nikita Gusev,/api/v1/people/8477038,Nikita,Gusev,97,1992-07-08,27,Moscow,,RUS,RUS,"5' 9""",163,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,L,Left Wing,Forward,LW
+8477043,Christian Djoos,/api/v1/people/8477043,Christian,Djoos,29,1994-08-06,25,Gothenburg,,SWE,SWE,"6' 0""",180,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8477046,Joakim Ryan,/api/v1/people/8477046,Joakim,Ryan,6,1993-06-17,26,Rumson,NJ,USA,USA,"5' 11""",185,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8477073,Kurtis MacDermid,/api/v1/people/8477073,Kurtis,MacDermid,56,1994-03-25,25,Sauble Beach,ON,CAN,CAN,"6' 5""",233,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8477149,Scott Sabourin,/api/v1/people/8477149,Scott,Sabourin,49,1992-07-30,27,Orleans,ON,CAN,CAN,"6' 3""",208,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,R,Right Wing,Forward,RW
+8477180,Aaron Dell,/api/v1/people/8477180,Aaron,Dell,30,1989-05-04,30,Airdrie,AB,CAN,CAN,"6' 0""",205,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,G,Goalie,Goalie,G
+8477215,Danny DeKeyser,/api/v1/people/8477215,Danny,DeKeyser,65,1990-03-07,30,Detroit,MI,USA,USA,"6' 3""",190,true,false,false,false,L,I,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8477220,Nate Schmidt,/api/v1/people/8477220,Nate,Schmidt,88,1991-07-16,28,St. Cloud,MN,USA,USA,"6' 0""",194,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8477240,Carter Rowney,/api/v1/people/8477240,Carter,Rowney,24,1989-05-10,30,Grande Prairie,AB,CAN,CAN,"6' 1""",208,true,false,false,false,R,Y,24,Anaheim Ducks,/api/v1/teams/24,C,Center,Forward,C
+8477244,Chad Ruhwedel,/api/v1/people/8477244,Chad,Ruhwedel,2,1990-05-07,29,San Diego,CA,USA,USA,"5' 11""",191,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8477290,Michael Raffl,/api/v1/people/8477290,Michael,Raffl,12,1988-12-01,31,Villach,,AUT,AUT,"6' 0""",200,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,L,Left Wing,Forward,LW
+8477293,Antti Raanta,/api/v1/people/8477293,Antti,Raanta,32,1989-05-12,30,Rauma,,FIN,FIN,"6' 0""",195,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,G,Goalie,Goalie,G
+8477320,Anton Blidh,/api/v1/people/8477320,Anton,Blidh,81,1995-03-14,25,Molnlycke,,SWE,SWE,"6' 0""",201,true,false,false,true,L,Y,6,Boston Bruins,/api/v1/teams/6,L,Left Wing,Forward,LW
+8477330,Dominik Kubalik,/api/v1/people/8477330,Dominik,Kubalik,8,1995-08-21,24,Plzen,,CZE,CZE,"6' 2""",179,true,false,false,true,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
+8477341,Andreas Johnsson,/api/v1/people/8477341,Andreas,Johnsson,18,1994-11-21,25,Gävle,,SWE,SWE,"5' 10""",194,true,false,false,false,L,I,10,Toronto Maple Leafs,/api/v1/teams/10,L,Left Wing,Forward,LW
+8477346,MacKenzie Weegar,/api/v1/people/8477346,MacKenzie,Weegar,52,1994-01-07,26,Ottawa,ON,CAN,CAN,"6' 0""",200,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8477353,Tyler Motte,/api/v1/people/8477353,Tyler,Motte,64,1995-03-10,25,St. Clair,MI,USA,USA,"5' 10""",192,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8477355,Will Butcher,/api/v1/people/8477355,Will,Butcher,8,1995-01-06,25,Sun Prairie,WI,USA,USA,"5' 10""",190,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8477359,Tucker Poolman,/api/v1/people/8477359,Tucker,Poolman,3,1993-06-08,26,Dubuque,IA,USA,USA,"6' 2""",199,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8477361,Calvin Petersen,/api/v1/people/8477361,Calvin,Petersen,40,1994-10-19,25,Waterloo,IA,USA,USA,"6' 1""",185,true,false,false,true,R,Y,26,Los Angeles Kings,/api/v1/teams/26,G,Goalie,Goalie,G
+8477365,Connor Clifton,/api/v1/people/8477365,Connor,Clifton,75,1995-04-28,24,Long Branch,NJ,USA,USA,"5' 11""",175,true,false,false,true,R,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8477369,Carson Soucy,/api/v1/people/8477369,Carson,Soucy,21,1994-07-27,25,Viking,AB,CAN,CAN,"6' 5""",210,true,false,false,true,L,Y,30,Minnesota Wild,/api/v1/teams/30,D,Defenseman,Defenseman,D
+8477384,Josh Brown,/api/v1/people/8477384,Josh,Brown,2,1994-01-21,26,London,ON,CAN,CAN,"6' 5""",217,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8477401,John Hayden,/api/v1/people/8477401,John,Hayden,15,1995-02-14,25,Chicago,IL,USA,USA,"6' 3""",215,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8477402,Pavel Buchnevich,/api/v1/people/8477402,Pavel,Buchnevich,89,1995-04-17,24,Cherepovets,,RUS,RUS,"6' 3""",197,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,R,Right Wing,Forward,RW
+8477404,Jake Guentzel,/api/v1/people/8477404,Jake,Guentzel,59,1994-10-06,25,Omaha,NE,USA,USA,"5' 11""",180,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,L,Left Wing,Forward,LW
+8477405,Marcus Hogberg,/api/v1/people/8477405,Marcus,Hogberg,35,1994-11-25,25,Orebro,,SWE,SWE,"6' 5""",209,true,false,false,true,L,Y,9,Ottawa Senators,/api/v1/teams/9,G,Goalie,Goalie,G
+8477406,Mattias Janmark,/api/v1/people/8477406,Mattias,Janmark,13,1992-12-08,27,Danderyd,,SWE,SWE,"6' 1""",195,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8477407,Anthony Duclair,/api/v1/people/8477407,Anthony,Duclair,10,1995-08-26,24,Pointe-Claire,QC,CAN,CAN,"5' 11""",198,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,L,Left Wing,Forward,LW
+8477409,Carter Verhaeghe,/api/v1/people/8477409,Carter,Verhaeghe,23,1995-08-14,24,Toronto,ON,CAN,CAN,"6' 1""",177,true,false,false,true,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8477416,Oliver Bjorkstrand,/api/v1/people/8477416,Oliver,Bjorkstrand,28,1995-04-10,24,Herning,,DNK,DNK,"6' 0""",177,true,false,false,false,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,R,Right Wing,Forward,RW
+8477424,Juuse Saros,/api/v1/people/8477424,Juuse,Saros,74,1995-04-19,24,Forssa,,FIN,FIN,"5' 11""",180,true,false,false,false,L,Y,18,Nashville Predators,/api/v1/teams/18,G,Goalie,Goalie,G
+8477425,Miles Wood,/api/v1/people/8477425,Miles,Wood,44,1995-09-13,24,Buffalo,NY,USA,USA,"6' 2""",195,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,L,Left Wing,Forward,LW
+8477426,Nick Paul,/api/v1/people/8477426,Nick,Paul,13,1995-03-20,25,Mississauga,ON,CAN,CAN,"6' 3""",219,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,L,Left Wing,Forward,LW
+8477429,Andrew Copp,/api/v1/people/8477429,Andrew,Copp,9,1994-07-08,25,Ann Arbor,MI,USA,USA,"6' 1""",206,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8477435,Ryan Graves,/api/v1/people/8477435,Ryan,Graves,27,1995-05-21,24,Yarmouth,NS,CAN,CAN,"6' 5""",220,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8477444,Andre Burakovsky,/api/v1/people/8477444,Andre,Burakovsky,95,1995-02-09,25,Klagenfurt,,AUT,SWE,"6' 3""",201,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,L,Left Wing,Forward,LW
+8477447,Shea Theodore,/api/v1/people/8477447,Shea,Theodore,27,1995-08-03,24,Langley,BC,CAN,CAN,"6' 2""",195,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8477450,Jason Dickinson,/api/v1/people/8477450,Jason,Dickinson,18,1995-07-04,24,Georgetown,ON,CAN,CAN,"6' 2""",200,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,C,Center,Forward,C
+8477451,Ryan Hartman,/api/v1/people/8477451,Ryan,Hartman,38,1994-09-20,25,Hilton Head Isl.,SC,USA,USA,"6' 0""",189,true,false,false,false,R,Y,30,Minnesota Wild,/api/v1/teams/30,R,Right Wing,Forward,RW
+8477454,Adam Erne,/api/v1/people/8477454,Adam,Erne,73,1995-04-20,24,New Haven,CT,USA,USA,"6' 1""",212,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8477455,Jacob de la Rose,/api/v1/people/8477455,Jacob,de la Rose,61,1995-05-20,24,Arvika,,SWE,SWE,"6' 3""",215,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8477456,J.T. Compher,/api/v1/people/8477456,J.T.,Compher,37,1995-04-08,24,Northbrook,IL,USA,USA,"6' 0""",190,true,false,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,L,Left Wing,Forward,LW
+8477462,Robert Hagg,/api/v1/people/8477462,Robert,Hagg,8,1995-02-08,25,Uppsala,,SWE,SWE,"6' 2""",204,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8477465,Tristan Jarry,/api/v1/people/8477465,Tristan,Jarry,35,1995-04-29,24,Surrey,BC,CAN,CAN,"6' 2""",194,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,G,Goalie,Goalie,G
+8477472,Carl Dahlstrom,/api/v1/people/8477472,Carl,Dahlstrom,23,1995-01-28,25,Stockholm,,SWE,SWE,"6' 4""",231,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8477474,Madison Bowey,/api/v1/people/8477474,Madison,Bowey,74,1995-04-22,24,Winnipeg,MB,CAN,CAN,"6' 2""",202,true,false,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8477476,Artturi Lehkonen,/api/v1/people/8477476,Artturi,Lehkonen,62,1995-07-04,24,Piikkio,,FIN,FIN,"6' 0""",176,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,L,Left Wing,Forward,LW
+8477478,William Carrier,/api/v1/people/8477478,William,Carrier,28,1994-12-20,25,LaSalle,QC,CAN,CAN,"6' 2""",218,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,L,Left Wing,Forward,LW
+8477479,Tyler Bertuzzi,/api/v1/people/8477479,Tyler,Bertuzzi,59,1995-02-24,25,Sudbury,ON,CAN,CAN,"6' 1""",199,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8477482,Zach Sanford,/api/v1/people/8477482,Zach,Sanford,12,1994-11-09,25,Salem,MA,USA,USA,"6' 4""",207,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8477488,Brett Pesce,/api/v1/people/8477488,Brett,Pesce,22,1994-11-15,25,Tarrytown,NY,USA,USA,"6' 3""",206,true,false,false,false,R,I,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8477492,Nathan MacKinnon,/api/v1/people/8477492,Nathan,MacKinnon,29,1995-09-01,24,Halifax,NS,CAN,CAN,"6' 0""",200,true,true,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8477493,Aleksander Barkov,/api/v1/people/8477493,Aleksander,Barkov,16,1995-09-02,24,Tampere,,FIN,FIN,"6' 3""",210,true,false,true,false,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8477494,Jonathan Drouin,/api/v1/people/8477494,Jonathan,Drouin,92,1995-03-28,24,Ste-Agathe,QC,CAN,CAN,"6' 0""",197,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,L,Left Wing,Forward,LW
+8477495,Seth Jones,/api/v1/people/8477495,Seth,Jones,3,1994-10-03,25,Arlington,TX,USA,USA,"6' 4""",209,true,false,false,false,R,I,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8477496,Elias Lindholm,/api/v1/people/8477496,Elias,Lindholm,28,1994-12-02,25,Boden,,SWE,SWE,"6' 1""",195,true,false,false,false,R,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8477497,Sean Monahan,/api/v1/people/8477497,Sean,Monahan,23,1994-10-12,25,Brampton,ON,CAN,CAN,"6' 2""",200,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8477498,Darnell Nurse,/api/v1/people/8477498,Darnell,Nurse,25,1995-02-04,25,Hamilton,ON,CAN,CAN,"6' 4""",221,true,true,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8477499,Rasmus Ristolainen,/api/v1/people/8477499,Rasmus,Ristolainen,55,1994-10-27,25,Turku,,FIN,FIN,"6' 4""",220,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8477500,Bo Horvat,/api/v1/people/8477500,Bo,Horvat,53,1995-04-05,24,London,ON,CAN,CAN,"6' 0""",215,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8477501,Valeri Nichushkin,/api/v1/people/8477501,Valeri,Nichushkin,13,1995-03-04,25,Chelyabinsk,,RUS,RUS,"6' 4""",210,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,R,Right Wing,Forward,RW
+8477502,Samuel Morin,/api/v1/people/8477502,Samuel,Morin,55,1995-07-12,24,Lac-Beauport,QC,CAN,CAN,"6' 6""",202,true,false,false,true,L,I,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8477503,Max Domi,/api/v1/people/8477503,Max,Domi,13,1995-03-02,25,Winnipeg,MB,CAN,CAN,"5' 10""",192,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,C,Center,Forward,C
+8477504,Josh Morrissey,/api/v1/people/8477504,Josh,Morrissey,44,1995-03-28,24,Calgary,AB,CAN,CAN,"6' 0""",195,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8477505,Alexander Wennberg,/api/v1/people/8477505,Alexander,Wennberg,10,1994-09-22,25,Stockholm,,SWE,SWE,"6' 2""",197,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8477506,Ryan Pulock,/api/v1/people/8477506,Ryan,Pulock,6,1994-10-06,25,Dauphin,MB,CAN,CAN,"6' 2""",217,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8477507,Nikita Zadorov,/api/v1/people/8477507,Nikita,Zadorov,16,1995-04-16,24,Moscow,,RUS,RUS,"6' 6""",235,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8477508,Curtis Lazar,/api/v1/people/8477508,Curtis,Lazar,27,1995-02-02,25,Salmon Arm,BC,CAN,CAN,"6' 0""",211,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8477509,Mirco Mueller,/api/v1/people/8477509,Mirco,Mueller,25,1995-03-21,25,Winterthur,,CHE,CHE,"6' 3""",210,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8477511,Anthony Mantha,/api/v1/people/8477511,Anthony,Mantha,39,1994-09-16,25,Longueuil,QC,CAN,CAN,"6' 5""",234,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,R,Right Wing,Forward,RW
+8477512,Frederik Gauthier,/api/v1/people/8477512,Frederik,Gauthier,33,1995-04-26,24,Laval,QC,CAN,CAN,"6' 5""",239,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8477527,Ross Johnston,/api/v1/people/8477527,Ross,Johnston,32,1994-02-18,26,Charlottetown,PE,CAN,CAN,"6' 5""",235,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8477541,Dakota Mermis,/api/v1/people/8477541,Dakota,Mermis,32,1994-01-05,26,Alton,IL,USA,USA,"6' 0""",195,true,false,false,true,L,Y,1,New Jersey Devils,/api/v1/teams/1,D,Defenseman,Defenseman,D
+8477839,Conor Sheary,/api/v1/people/8477839,Conor,Sheary,43,1992-06-08,27,Winchester,MA,USA,USA,"5' 8""",179,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,L,Left Wing,Forward,LW
+8477845,Trevor van Riemsdyk,/api/v1/people/8477845,Trevor,van Riemsdyk,57,1991-07-24,28,Middletown,NJ,USA,USA,"6' 2""",192,true,false,false,false,R,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8477846,Ryan Carpenter,/api/v1/people/8477846,Ryan,Carpenter,22,1991-01-18,29,Oviedo,FL,USA,USA,"6' 0""",200,true,false,false,false,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8477850,Christian Folin,/api/v1/people/8477850,Christian,Folin,32,1991-02-09,29,Gothenburg,,SWE,SWE,"6' 4""",204,true,false,false,false,R,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8477851,Jordan Oesterle,/api/v1/people/8477851,Jordan,Oesterle,82,1992-06-25,27,Dearborn Heights,MI,USA,USA,"6' 0""",182,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8477903,Garnet Hathaway,/api/v1/people/8477903,Garnet,Hathaway,21,1991-11-23,28,Kennebunkport,ME,USA,USA,"6' 3""",210,true,false,false,false,R,Y,15,Washington Capitals,/api/v1/teams/15,R,Right Wing,Forward,RW
+8477922,Melker Karlsson,/api/v1/people/8477922,Melker,Karlsson,68,1990-07-18,29,Lycksele,,SWE,SWE,"6' 0""",180,true,false,false,false,R,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8477930,Pierre-Edouard Bellemare,/api/v1/people/8477930,Pierre-Edouard,Bellemare,41,1985-03-06,35,Le Blanc-Mesnil,,FRA,FRA,"6' 0""",198,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8477931,Tomas Nosek,/api/v1/people/8477931,Tomas,Nosek,92,1992-09-01,27,Pardubice,,CZE,CZE,"6' 2""",205,true,false,false,false,L,Y,54,Vegas Golden Knights,/api/v1/teams/54,L,Left Wing,Forward,LW
+8477932,Aaron Ekblad,/api/v1/people/8477932,Aaron,Ekblad,5,1996-02-07,24,Windsor,ON,CAN,CAN,"6' 4""",215,true,true,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8477933,Sam Reinhart,/api/v1/people/8477933,Sam,Reinhart,23,1995-11-06,24,West Vancouver,BC,CAN,CAN,"6' 1""",194,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8477934,Leon Draisaitl,/api/v1/people/8477934,Leon,Draisaitl,29,1995-10-27,24,Cologne,,DEU,DEU,"6' 2""",208,true,true,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
+8477935,Sam Bennett,/api/v1/people/8477935,Sam,Bennett,93,1996-06-20,23,Holland Landing,ON,CAN,CAN,"6' 1""",195,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8477936,Michael Dal Colle,/api/v1/people/8477936,Michael,Dal Colle,28,1996-06-20,23,Woodbridge,ON,CAN,CAN,"6' 3""",204,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8477937,Jake Virtanen,/api/v1/people/8477937,Jake,Virtanen,18,1996-08-17,23,Langley,BC,CAN,CAN,"6' 1""",226,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,R,Right Wing,Forward,RW
+8477938,Haydn Fleury,/api/v1/people/8477938,Haydn,Fleury,4,1996-07-08,23,Carlyle,SK,CAN,CAN,"6' 3""",208,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,D,Defenseman,Defenseman,D
+8477939,William Nylander,/api/v1/people/8477939,William,Nylander,88,1996-05-01,23,Calgary,AB,CAN,SWE,"6' 0""",196,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,R,Right Wing,Forward,RW
+8477940,Nikolaj Ehlers,/api/v1/people/8477940,Nikolaj,Ehlers,27,1996-02-14,24,Aalborg,,DNK,DNK,"6' 0""",172,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,L,Left Wing,Forward,LW
+8477941,Nick Ritchie,/api/v1/people/8477941,Nick,Ritchie,21,1995-12-05,24,Orangeville,ON,CAN,CAN,"6' 2""",230,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,L,Left Wing,Forward,LW
+8477942,Kevin Fiala,/api/v1/people/8477942,Kevin,Fiala,22,1996-07-22,23,St. Gallen,,CHE,CHE,"5' 10""",193,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,L,Left Wing,Forward,LW
+8477943,Brendan Perlini,/api/v1/people/8477943,Brendan,Perlini,29,1996-04-27,23,Guildford,,GBR,GBR,"6' 3""",211,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8477944,Jakub Vrana,/api/v1/people/8477944,Jakub,Vrana,13,1996-02-28,24,Prague,,CZE,CZE,"6' 0""",195,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,L,Left Wing,Forward,LW
+8477946,Dylan Larkin,/api/v1/people/8477946,Dylan,Larkin,71,1996-07-30,23,Waterford,MI,USA,USA,"6' 1""",198,true,true,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8477947,Sonny Milano,/api/v1/people/8477947,Sonny,Milano,22,1996-05-12,23,Massapequa,NY,USA,USA,"6' 0""",194,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8477948,Travis Sanheim,/api/v1/people/8477948,Travis,Sanheim,6,1996-03-29,23,Elkhorn,MB,CAN,CAN,"6' 3""",181,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8477949,Alex Tuch,/api/v1/people/8477949,Alex,Tuch,89,1996-05-10,23,Syracuse,NY,USA,USA,"6' 4""",220,true,false,false,false,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,R,Right Wing,Forward,RW
+8477950,Tony DeAngelo,/api/v1/people/8477950,Tony,DeAngelo,77,1995-10-24,24,Sewell,NJ,USA,USA,"5' 11""",180,true,false,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8477951,Nick Schmaltz,/api/v1/people/8477951,Nick,Schmaltz,8,1996-02-23,24,Madison,WI,USA,USA,"6' 0""",177,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8477952,Robby Fabbri,/api/v1/people/8477952,Robby,Fabbri,14,1996-01-22,24,Mississauga,ON,CAN,CAN,"5' 10""",190,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8477953,Kasperi Kapanen,/api/v1/people/8477953,Kasperi,Kapanen,24,1996-07-23,23,Kuopio,,FIN,FIN,"6' 1""",194,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,R,Right Wing,Forward,RW
+8477955,Jared McCann,/api/v1/people/8477955,Jared,McCann,19,1996-05-31,23,Stratford,ON,CAN,CAN,"6' 1""",185,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8477956,David Pastrnak,/api/v1/people/8477956,David,Pastrnak,88,1996-05-25,23,Havirov,,CZE,CZE,"6' 0""",194,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,R,Right Wing,Forward,RW
+8477960,Adrian Kempe,/api/v1/people/8477960,Adrian,Kempe,9,1996-09-13,23,Kramfors,,SWE,SWE,"6' 2""",201,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8477962,Brendan Lemieux,/api/v1/people/8477962,Brendan,Lemieux,48,1996-03-15,24,Denver,CO,USA,USA,"6' 1""",213,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,L,Left Wing,Forward,LW
+8477963,Jayce Hawryluk,/api/v1/people/8477963,Jayce,Hawryluk,79,1996-01-01,24,Yorkton,SK,CAN,CAN,"5' 11""",196,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,R,Right Wing,Forward,RW
+8477964,Ivan Barbashev,/api/v1/people/8477964,Ivan,Barbashev,49,1995-12-14,24,Moscow,,RUS,RUS,"6' 0""",187,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8477967,Thatcher Demko,/api/v1/people/8477967,Thatcher,Demko,35,1995-12-08,24,San Diego,CA,USA,USA,"6' 4""",192,true,false,false,true,L,Y,23,Vancouver Canucks,/api/v1/teams/23,G,Goalie,Goalie,G
+8477969,Marcus Pettersson,/api/v1/people/8477969,Marcus,Pettersson,28,1996-05-08,23,Skellefteå,,SWE,SWE,"6' 3""",177,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8477971,Andreas Englund,/api/v1/people/8477971,Andreas,Englund,39,1996-01-21,24,Stockholm,,SWE,SWE,"6' 3""",189,true,false,false,true,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8477973,Vladislav Kamenev,/api/v1/people/8477973,Vladislav,Kamenev,81,1996-08-12,23,Orsk,,RUS,RUS,"6' 2""",194,true,false,false,true,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8477974,Ryan MacInnis,/api/v1/people/8477974,Ryan,MacInnis,49,1996-02-14,24,St. Louis,MO,USA,USA,"6' 4""",200,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8477979,Nicolas Aube-Kubel,/api/v1/people/8477979,Nicolas,Aube-Kubel,62,1996-05-10,23,Slave Lake,AB,CAN,CAN,"5' 11""",187,true,false,false,true,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,R,Right Wing,Forward,RW
+8477986,Brandon Montour,/api/v1/people/8477986,Brandon,Montour,62,1994-04-11,25,Brantford,ON,CAN,CAN,"6' 0""",189,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8477987,Ryan Donato,/api/v1/people/8477987,Ryan,Donato,6,1996-04-09,23,Boston,MA,USA,USA,"6' 0""",192,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8477989,Christian Dvorak,/api/v1/people/8477989,Christian,Dvorak,18,1996-02-02,24,Palos,IL,USA,USA,"6' 0""",195,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8477998,Warren Foegele,/api/v1/people/8477998,Warren,Foegele,13,1996-04-01,23,Markham,ON,CAN,CAN,"6' 2""",198,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,L,Left Wing,Forward,LW
+8478007,Elvis Merzlikins,/api/v1/people/8478007,Elvis,Merzlikins,90,1994-04-13,25,Riga,,LVA,LVA,"6' 3""",181,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,G,Goalie,Goalie,G
+8478010,Brayden Point,/api/v1/people/8478010,Brayden,Point,21,1996-03-13,24,Calgary,AB,CAN,CAN,"5' 10""",166,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8478020,Michael Amadio,/api/v1/people/8478020,Michael,Amadio,10,1996-05-13,23,Sault Ste. Marie,ON,CAN,CAN,"6' 1""",204,true,false,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8478027,Lucas Wallmark,/api/v1/people/8478027,Lucas,Wallmark,71,1995-09-05,24,Umea,,SWE,SWE,"6' 0""",178,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8478036,Christoffer Ehn,/api/v1/people/8478036,Christoffer,Ehn,70,1996-04-05,23,Skara,,SWE,SWE,"6' 3""",195,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,C,Center,Forward,C
+8478038,Devon Toews,/api/v1/people/8478038,Devon,Toews,25,1994-02-21,26,Abbotsford,BC,CAN,CAN,"6' 1""",191,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8478042,Viktor Arvidsson,/api/v1/people/8478042,Viktor,Arvidsson,33,1993-04-08,26,Skellefteå,,SWE,SWE,"5' 9""",180,true,false,false,false,R,Y,18,Nashville Predators,/api/v1/teams/18,R,Right Wing,Forward,RW
+8478043,Sam Lafferty,/api/v1/people/8478043,Sam,Lafferty,37,1995-03-06,25,Hollidaysburg,PA,USA,USA,"6' 1""",195,true,false,false,true,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8478046,Danton Heinen,/api/v1/people/8478046,Danton,Heinen,43,1995-07-05,24,Langley,BC,CAN,CAN,"6' 1""",188,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8478048,Igor Shesterkin,/api/v1/people/8478048,Igor,Shesterkin,31,1995-12-30,24,Moscow,,RUS,RUS,"6' 2""",182,true,false,false,true,L,Y,3,New York Rangers,/api/v1/teams/3,G,Goalie,Goalie,G
+8478067,Oskar Lindblom,/api/v1/people/8478067,Oskar,Lindblom,23,1996-08-15,23,Gävle,,SWE,SWE,"6' 1""",191,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,L,Left Wing,Forward,LW
+8478074,Anthony Angello,/api/v1/people/8478074,Anthony,Angello,57,1996-03-06,24,Albany,NY,USA,USA,"6' 5""",210,true,false,false,true,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8478075,Anders Bjork,/api/v1/people/8478075,Anders,Bjork,10,1996-08-05,23,Mequon,WI,USA,USA,"6' 0""",190,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,L,Left Wing,Forward,LW
+8478099,Kevin Labanc,/api/v1/people/8478099,Kevin,Labanc,62,1995-12-12,24,Brooklyn,NY,USA,USA,"5' 11""",185,true,false,false,false,R,Y,28,San Jose Sharks,/api/v1/teams/28,R,Right Wing,Forward,RW
+8478104,Sammy Blais,/api/v1/people/8478104,Sammy,Blais,9,1996-06-17,23,Montmagny,QC,CAN,CAN,"6' 2""",205,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,L,Left Wing,Forward,LW
+8478109,Victor Olofsson,/api/v1/people/8478109,Victor,Olofsson,68,1995-07-18,24,Ornskoldsvik,,SWE,SWE,"5' 11""",183,true,false,false,true,L,Y,7,Buffalo Sabres,/api/v1/teams/7,L,Left Wing,Forward,LW
+8478115,Pierre Engvall,/api/v1/people/8478115,Pierre,Engvall,47,1996-05-31,23,Ljungby,,SWE,SWE,"6' 5""",214,true,false,false,true,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,L,Left Wing,Forward,LW
+8478131,Ondrej Kase,/api/v1/people/8478131,Ondrej,Kase,28,1995-11-08,24,Kadan,,CZE,CZE,"6' 0""",190,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,R,Right Wing,Forward,RW
+8478133,Jake Evans,/api/v1/people/8478133,Jake,Evans,71,1996-06-02,23,Toronto,ON,CAN,CAN,"6' 1""",181,true,false,false,true,R,Y,8,Montréal Canadiens,/api/v1/teams/8,C,Center,Forward,C
+8478136,Jacob Middleton,/api/v1/people/8478136,Jacob,Middleton,67,1996-01-02,24,Wainwright,AB,CAN,CAN,"6' 3""",210,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8478146,Matthew Highmore,/api/v1/people/8478146,Matthew,Highmore,36,1996-02-27,24,Halifax,NS,CAN,CAN,"5' 11""",188,true,false,false,true,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8478211,Dryden Hunt,/api/v1/people/8478211,Dryden,Hunt,73,1995-11-24,24,Cranbrook,BC,CAN,CAN,"6' 0""",193,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,L,Left Wing,Forward,LW
+8478233,Andrew Mangiapane,/api/v1/people/8478233,Andrew,Mangiapane,88,1996-04-04,23,Toronto,ON,CAN,CAN,"5' 10""",184,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,L,Left Wing,Forward,LW
+8478366,Frank Vatrano,/api/v1/people/8478366,Frank,Vatrano,77,1994-03-14,26,East Longmeadow,MA,USA,USA,"5' 11""",197,true,false,false,false,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8478396,Noah Hanifin,/api/v1/people/8478396,Noah,Hanifin,55,1997-01-25,23,Boston,MA,USA,USA,"6' 3""",215,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8478397,Rasmus Andersson,/api/v1/people/8478397,Rasmus,Andersson,4,1996-10-27,23,Malmö,,SWE,SWE,"6' 1""",214,true,false,false,false,R,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8478398,Kyle Connor,/api/v1/people/8478398,Kyle,Connor,81,1996-12-09,23,Shelby Township,MI,USA,USA,"6' 1""",182,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,L,Left Wing,Forward,LW
+8478399,Jonas Siegenthaler,/api/v1/people/8478399,Jonas,Siegenthaler,34,1997-05-06,22,Zurich,,CHE,CHE,"6' 3""",210,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8478400,Colin White,/api/v1/people/8478400,Colin,White,36,1997-01-30,23,Boston,MA,USA,USA,"5' 11""",191,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,C,Center,Forward,C
+8478401,Pavel Zacha,/api/v1/people/8478401,Pavel,Zacha,37,1997-04-06,22,Brno,,CZE,CZE,"6' 3""",210,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8478402,Connor McDavid,/api/v1/people/8478402,Connor,McDavid,97,1997-01-13,23,Richmond Hill,ON,CAN,CAN,"6' 1""",193,true,false,true,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
+8478403,Jack Eichel,/api/v1/people/8478403,Jack,Eichel,9,1996-10-28,23,North Chelmsford,MA,USA,USA,"6' 2""",203,true,false,true,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8478406,Mackenzie Blackwood,/api/v1/people/8478406,Mackenzie,Blackwood,29,1996-12-09,23,Thunder Bay,ON,CAN,CAN,"6' 4""",225,true,false,false,true,L,Y,1,New Jersey Devils,/api/v1/teams/1,G,Goalie,Goalie,G
+8478407,Vince Dunn,/api/v1/people/8478407,Vince,Dunn,29,1996-10-29,23,Mississauga,ON,CAN,CAN,"6' 0""",203,true,false,false,false,L,Y,19,St. Louis Blues,/api/v1/teams/19,D,Defenseman,Defenseman,D
+8478408,Travis Dermott,/api/v1/people/8478408,Travis,Dermott,23,1996-12-22,23,Newmarket,ON,CAN,CAN,"6' 0""",205,true,false,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8478413,Jordan Greenway,/api/v1/people/8478413,Jordan,Greenway,18,1997-02-16,23,Canton,NY,USA,USA,"6' 6""",225,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,L,Left Wing,Forward,LW
+8478414,Timo Meier,/api/v1/people/8478414,Timo,Meier,28,1996-10-08,23,Herisau,,CHE,CHE,"6' 0""",210,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,R,Right Wing,Forward,RW
+8478416,Erik Cernak,/api/v1/people/8478416,Erik,Cernak,81,1997-05-28,22,Kosice,,SVK,SVK,"6' 3""",233,true,false,false,false,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8478420,Mikko Rantanen,/api/v1/people/8478420,Mikko,Rantanen,96,1996-10-29,23,Nousiainen,,FIN,FIN,"6' 4""",215,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,R,Right Wing,Forward,RW
+8478424,Jansen Harkins,/api/v1/people/8478424,Jansen,Harkins,58,1997-05-23,22,Cleveland,OH,USA,USA,"6' 1""",182,true,false,false,true,L,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8478427,Sebastian Aho,/api/v1/people/8478427,Sebastian,Aho,20,1997-07-26,22,Rauma,,FIN,FIN,"6' 0""",176,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,C,Center,Forward,C
+8478430,Oliver Kylington,/api/v1/people/8478430,Oliver,Kylington,58,1997-05-19,22,Stockholm,,SWE,SWE,"6' 0""",183,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8478432,Christian Fischer,/api/v1/people/8478432,Christian,Fischer,36,1997-04-15,22,Chicago,IL,USA,USA,"6' 2""",214,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,R,Right Wing,Forward,RW
+8478439,Travis Konecny,/api/v1/people/8478439,Travis,Konecny,11,1997-03-11,23,London,ON,CAN,CAN,"5' 10""",175,true,false,false,false,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,R,Right Wing,Forward,RW
+8478440,Dylan Strome,/api/v1/people/8478440,Dylan,Strome,17,1997-03-07,23,Mississauga,ON,CAN,CAN,"6' 3""",200,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8478443,Brandon Carlo,/api/v1/people/8478443,Brandon,Carlo,25,1996-11-26,23,Colorado Springs,CO,USA,USA,"6' 5""",212,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8478444,Brock Boeser,/api/v1/people/8478444,Brock,Boeser,6,1997-02-25,23,Burnsville,MN,USA,USA,"6' 1""",208,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,R,Right Wing,Forward,RW
+8478445,Mathew Barzal,/api/v1/people/8478445,Mathew,Barzal,13,1997-05-26,22,Coquitlam,BC,CAN,CAN,"6' 0""",187,true,false,false,false,R,Y,2,New York Islanders,/api/v1/teams/2,C,Center,Forward,C
+8478449,Roope Hintz,/api/v1/people/8478449,Roope,Hintz,24,1996-11-17,23,Tampere,,FIN,FIN,"6' 3""",220,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,L,Left Wing,Forward,LW
+8478451,Ethan Bear,/api/v1/people/8478451,Ethan,Bear,74,1997-06-26,22,Regina,SK,CAN,CAN,"5' 11""",197,true,false,false,true,R,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8478452,Caleb Jones,/api/v1/people/8478452,Caleb,Jones,82,1997-06-06,22,Arlington,TX,USA,USA,"6' 1""",194,true,false,false,true,L,Y,22,Edmonton Oilers,/api/v1/teams/22,D,Defenseman,Defenseman,D
+8478455,Austin Wagner,/api/v1/people/8478455,Austin,Wagner,51,1997-06-23,22,Calgary,AB,CAN,CAN,"6' 1""",185,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,L,Left Wing,Forward,LW
+8478458,Jack Roslovic,/api/v1/people/8478458,Jack,Roslovic,28,1997-01-29,23,Columbus,OH,USA,USA,"6' 1""",187,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8478460,Zach Werenski,/api/v1/people/8478460,Zach,Werenski,8,1997-07-19,22,Grosse Pointe,MI,USA,USA,"6' 2""",212,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8478462,Nicolas Roy,/api/v1/people/8478462,Nicolas,Roy,10,1997-02-05,23,Amos,QC,CAN,CAN,"6' 4""",200,true,false,false,true,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,C,Center,Forward,C
+8478463,Anthony Beauvillier,/api/v1/people/8478463,Anthony,Beauvillier,18,1997-06-08,22,Sorel-Tracy,QC,CAN,CAN,"5' 11""",182,true,false,false,false,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8478465,Guillaume Brisebois,/api/v1/people/8478465,Guillaume,Brisebois,56,1997-07-21,22,Longueuil,QC,CAN,CAN,"6' 2""",175,true,false,false,true,L,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8478468,Jeremy Lauzon,/api/v1/people/8478468,Jeremy,Lauzon,79,1997-04-28,22,"Val D'or",QC,CAN,CAN,"6' 1""",204,true,false,false,true,L,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8478469,Thomas Chabot,/api/v1/people/8478469,Thomas,Chabot,72,1997-01-30,23,Sainte-Marie,QC,CAN,CAN,"6' 2""",190,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8478470,Sam Montembeault,/api/v1/people/8478470,Sam,Montembeault,33,1996-10-30,23,Becancour,QC,CAN,CAN,"6' 3""",199,true,false,false,true,L,Y,13,Florida Panthers,/api/v1/teams/13,G,Goalie,Goalie,G
+8478474,Lawson Crouse,/api/v1/people/8478474,Lawson,Crouse,67,1997-06-23,22,Mt. Brydges,ON,CAN,CAN,"6' 4""",220,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,L,Left Wing,Forward,LW
+8478477,Mitchell Stephens,/api/v1/people/8478477,Mitchell,Stephens,67,1997-02-05,23,Peterborough,ON,CAN,CAN,"5' 11""",193,true,false,false,true,R,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8478483,Mitchell Marner,/api/v1/people/8478483,Mitchell,Marner,16,1997-05-05,22,Markham,ON,CAN,CAN,"6' 0""",175,true,true,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,R,Right Wing,Forward,RW
+8478491,Jacob Larsson,/api/v1/people/8478491,Jacob,Larsson,32,1997-04-29,22,Ljungby,,SWE,SWE,"6' 2""",190,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,D,Defenseman,Defenseman,D
+8478492,Ilya Samsonov,/api/v1/people/8478492,Ilya,Samsonov,30,1997-02-22,23,Magnitogorsk,,RUS,RUS,"6' 3""",208,true,false,false,true,L,Y,15,Washington Capitals,/api/v1/teams/15,G,Goalie,Goalie,G
+8478493,Joel Eriksson Ek,/api/v1/people/8478493,Joel,Eriksson Ek,14,1997-01-29,23,Karlstad,,SWE,SWE,"6' 1""",210,true,false,false,false,L,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8478495,Denis Gurianov,/api/v1/people/8478495,Denis,Gurianov,34,1997-06-07,22,Togliatti,,RUS,RUS,"6' 3""",200,true,false,false,true,L,Y,25,Dallas Stars,/api/v1/teams/25,R,Right Wing,Forward,RW
+8478498,Jake DeBrusk,/api/v1/people/8478498,Jake,DeBrusk,74,1996-10-17,23,Edmonton,AB,CAN,CAN,"6' 0""",188,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,L,Left Wing,Forward,LW
+8478500,Ivan Provorov,/api/v1/people/8478500,Ivan,Provorov,9,1997-01-13,23,Yaroslavl,,RUS,RUS,"6' 1""",201,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8478506,Gabriel Carlsson,/api/v1/people/8478506,Gabriel,Carlsson,53,1997-01-02,23,Orebro,,SWE,SWE,"6' 5""",192,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8478507,John Marino,/api/v1/people/8478507,John,Marino,6,1997-05-21,22,North Easton,MA,USA,USA,"6' 1""",181,true,false,false,true,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8478519,Anthony Cirelli,/api/v1/people/8478519,Anthony,Cirelli,71,1997-07-15,22,Etobicoke,ON,CAN,CAN,"6' 0""",193,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,C,Center,Forward,C
+8478542,Evan Rodrigues,/api/v1/people/8478542,Evan,Rodrigues,9,1993-07-28,26,Toronto,ON,CAN,CAN,"5' 11""",184,true,false,false,false,R,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8478550,Artemi Panarin,/api/v1/people/8478550,Artemi,Panarin,10,1991-10-30,28,Korkino,,RUS,RUS,"5' 11""",170,true,false,false,false,R,Y,3,New York Rangers,/api/v1/teams/3,L,Left Wing,Forward,LW
+8478567,Dean Kukan,/api/v1/people/8478567,Dean,Kukan,46,1993-07-08,26,Volketswil,,CHE,CHE,"6' 2""",192,true,false,false,false,L,I,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8478569,Noel Acciari,/api/v1/people/8478569,Noel,Acciari,55,1991-12-01,28,Johnston,RI,USA,USA,"5' 10""",203,true,false,false,false,R,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8478585,Derek Ryan,/api/v1/people/8478585,Derek,Ryan,10,1986-12-29,33,Spokane,WA,USA,USA,"5' 10""",185,true,false,false,false,R,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8478831,Kevin Stenlund,/api/v1/people/8478831,Kevin,Stenlund,11,1996-09-20,23,Stockholm,,SWE,SWE,"6' 4""",209,true,false,false,true,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8478839,Aleksi Saarela,/api/v1/people/8478839,Aleksi,Saarela,28,1997-01-07,23,Helsinki,,FIN,FIN,"5' 10""",200,true,false,false,true,L,Y,13,Florida Panthers,/api/v1/teams/13,C,Center,Forward,C
+8478843,Denis Malgin,/api/v1/people/8478843,Denis,Malgin,62,1997-01-18,23,Olten,,CHE,CHE,"5' 9""",177,true,false,false,false,R,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8478846,Christian Wolanin,/api/v1/people/8478846,Christian,Wolanin,86,1995-03-17,25,Quebec City,QC,CAN,CAN,"6' 2""",185,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8478856,Conor Garland,/api/v1/people/8478856,Conor,Garland,83,1996-03-11,24,Scituate,MA,USA,USA,"5' 10""",165,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,R,Right Wing,Forward,RW
+8478857,Dmytro Timashov,/api/v1/people/8478857,Dmytro,Timashov,15,1996-10-01,23,Kirovograd,,UKR,UKR,"5' 10""",192,true,false,false,true,L,Y,17,Detroit Red Wings,/api/v1/teams/17,L,Left Wing,Forward,LW
+8478866,Dominik Simon,/api/v1/people/8478866,Dominik,Simon,18,1994-08-08,25,Prague,,CZE,CZE,"5' 11""",190,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8478870,Rudolfs Balcers,/api/v1/people/8478870,Rudolfs,Balcers,38,1997-04-08,22,Liepaja,,LVA,LVA,"5' 11""",180,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,L,Left Wing,Forward,LW
+8478874,Adam Gaudette,/api/v1/people/8478874,Adam,Gaudette,88,1996-10-03,23,Braintree,MA,USA,USA,"6' 1""",170,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8478882,Vladislav Gavrikov,/api/v1/people/8478882,Vladislav,Gavrikov,44,1995-11-21,24,Yaroslavl,,RUS,RUS,"6' 3""",213,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8478891,Mason Appleton,/api/v1/people/8478891,Mason,Appleton,82,1996-01-15,24,Green Bay,WI,USA,USA,"6' 2""",193,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,C,Center,Forward,C
+8478906,Markus Nutivaara,/api/v1/people/8478906,Markus,Nutivaara,65,1994-06-06,25,Oulu,,FIN,FIN,"6' 1""",187,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8478911,Matt Roy,/api/v1/people/8478911,Matt,Roy,3,1995-03-01,25,Detroit,MI,USA,USA,"6' 1""",200,true,false,false,true,R,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8478915,Sami Niku,/api/v1/people/8478915,Sami,Niku,8,1996-10-10,23,Haapavesi,,FIN,FIN,"6' 1""",176,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8479026,Philippe Myers,/api/v1/people/8479026,Philippe,Myers,5,1997-01-25,23,Moncton,NB,CAN,CAN,"6' 5""",210,true,false,false,true,R,Y,4,Philadelphia Flyers,/api/v1/teams/4,D,Defenseman,Defenseman,D
+8479291,Kevin Rooney,/api/v1/people/8479291,Kevin,Rooney,16,1993-05-21,26,Canton,MA,USA,USA,"6' 2""",190,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8479292,Charlie Lindgren,/api/v1/people/8479292,Charlie,Lindgren,39,1993-12-18,26,Lakeville,MN,USA,USA,"6' 1""",180,true,false,false,true,R,Y,8,Montréal Canadiens,/api/v1/teams/8,G,Goalie,Goalie,G
+8479293,Brandon Tanev,/api/v1/people/8479293,Brandon,Tanev,13,1991-12-31,28,Toronto,ON,CAN,CAN,"6' 0""",180,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,L,Left Wing,Forward,LW
+8479314,Matthew Tkachuk,/api/v1/people/8479314,Matthew,Tkachuk,19,1997-12-11,22,Scottsdale,AZ,USA,USA,"6' 2""",202,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,L,Left Wing,Forward,LW
+8479315,Joey Anderson,/api/v1/people/8479315,Joey,Anderson,14,1998-06-19,21,Roseville,MN,USA,USA,"5' 11""",190,true,false,false,false,R,Y,1,New Jersey Devils,/api/v1/teams/1,R,Right Wing,Forward,RW
+8479316,Luke Kunin,/api/v1/people/8479316,Luke,Kunin,19,1997-12-04,22,Chesterfield,MO,USA,USA,"6' 0""",197,true,false,false,false,R,Y,30,Minnesota Wild,/api/v1/teams/30,C,Center,Forward,C
+8479318,Auston Matthews,/api/v1/people/8479318,Auston,Matthews,34,1997-09-17,22,San Ramon,CA,USA,USA,"6' 3""",220,true,true,false,false,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,C,Center,Forward,C
+8479323,Adam Fox,/api/v1/people/8479323,Adam,Fox,23,1998-02-17,22,Jericho,NY,USA,USA,"5' 11""",181,true,false,false,true,R,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8479324,Ryan Lindgren,/api/v1/people/8479324,Ryan,Lindgren,55,1998-02-11,22,Burnsville,MN,USA,USA,"6' 0""",191,true,false,false,true,L,Y,3,New York Rangers,/api/v1/teams/3,D,Defenseman,Defenseman,D
+8479325,Charlie McAvoy,/api/v1/people/8479325,Charlie,McAvoy,73,1997-12-21,22,Long Beach,NY,USA,USA,"6' 0""",208,true,false,false,false,R,Y,6,Boston Bruins,/api/v1/teams/6,D,Defenseman,Defenseman,D
+8479328,Julien Gauthier,/api/v1/people/8479328,Julien,Gauthier,12,1997-10-15,22,Pointe-aux-Trembles,QC,CAN,CAN,"6' 4""",227,true,false,false,true,R,Y,3,New York Rangers,/api/v1/teams/3,R,Right Wing,Forward,RW
+8479337,Alex DeBrincat,/api/v1/people/8479337,Alex,DeBrincat,12,1997-12-18,22,Farmington Hills,MI,USA,USA,"5' 7""",165,true,false,false,false,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
+8479339,Patrik Laine,/api/v1/people/8479339,Patrik,Laine,29,1998-04-19,21,Tampere,,FIN,FIN,"6' 5""",206,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,R,Right Wing,Forward,RW
+8479343,Clayton Keller,/api/v1/people/8479343,Clayton,Keller,9,1998-07-29,21,Chesterfield,MO,USA,USA,"5' 10""",170,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,R,Right Wing,Forward,RW
+8479345,Jakob Chychrun,/api/v1/people/8479345,Jakob,Chychrun,6,1998-03-31,21,Boca Raton,FL,USA,USA,"6' 2""",210,true,false,false,false,L,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8479346,Dillon Dube,/api/v1/people/8479346,Dillon,Dube,29,1998-07-20,21,Golden,BC,CAN,CAN,"5' 11""",187,true,false,false,true,L,Y,20,Calgary Flames,/api/v1/teams/20,C,Center,Forward,C
+8479351,Sam Steel,/api/v1/people/8479351,Sam,Steel,34,1998-02-03,22,Ardrossan,AB,CAN,CAN,"5' 11""",189,true,false,false,true,L,Y,24,Anaheim Ducks,/api/v1/teams/24,C,Center,Forward,C
+8479353,Brett Howden,/api/v1/people/8479353,Brett,Howden,21,1998-03-29,21,Calgary,AB,CAN,CAN,"6' 3""",197,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8479368,Max Jones,/api/v1/people/8479368,Max,Jones,49,1998-02-17,22,Rochester,MI,USA,USA,"6' 1""",220,true,false,false,false,L,Y,24,Anaheim Ducks,/api/v1/teams/24,L,Left Wing,Forward,LW
+8479369,Andrew Peeke,/api/v1/people/8479369,Andrew,Peeke,2,1998-03-17,22,Parkland,FL,USA,USA,"6' 3""",194,true,false,false,true,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,D,Defenseman,Defenseman,D
+8479370,Tyson Jost,/api/v1/people/8479370,Tyson,Jost,17,1998-03-14,22,St. Albert,AB,CAN,CAN,"5' 11""",187,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,C,Center,Forward,C
+8479371,Dante Fabbro,/api/v1/people/8479371,Dante,Fabbro,57,1998-06-20,21,Coquitlam,BC,CAN,CAN,"6' 0""",189,true,false,false,true,R,Y,18,Nashville Predators,/api/v1/teams/18,D,Defenseman,Defenseman,D
+8479376,Victor Mete,/api/v1/people/8479376,Victor,Mete,53,1998-06-07,21,Woodbridge,ON,CAN,CAN,"5' 9""",187,true,false,false,false,L,Y,8,Montréal Canadiens,/api/v1/teams/8,D,Defenseman,Defenseman,D
+8479385,Jordan Kyrou,/api/v1/people/8479385,Jordan,Kyrou,33,1998-05-05,21,Toronto,ON,CAN,CAN,"6' 0""",175,true,false,false,true,R,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8479388,Riley Stillman,/api/v1/people/8479388,Riley,Stillman,61,1998-03-09,22,Peterborough,ON,CAN,CAN,"6' 1""",196,true,false,false,true,L,Y,13,Florida Panthers,/api/v1/teams/13,D,Defenseman,Defenseman,D
+8479393,Noah Gregor,/api/v1/people/8479393,Noah,Gregor,73,1998-07-28,21,Beaumont,AB,CAN,CAN,"6' 0""",185,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8479394,Carter Hart,/api/v1/people/8479394,Carter,Hart,79,1998-08-13,21,Sherwood Park,AB,CAN,CAN,"6' 2""",181,true,false,false,false,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,G,Goalie,Goalie,G
+8479395,Dennis Cholowski,/api/v1/people/8479395,Dennis,Cholowski,21,1998-02-15,22,Langley,BC,CAN,CAN,"6' 2""",197,true,false,false,false,L,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8479398,Samuel Girard,/api/v1/people/8479398,Samuel,Girard,49,1998-05-12,21,Roberval,QC,CAN,CAN,"5' 10""",170,true,false,false,false,L,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8479400,Pierre-Luc Dubois,/api/v1/people/8479400,Pierre-Luc,Dubois,18,1998-06-24,21,Ste-Agathe-des-Monts,QC,CAN,CAN,"6' 3""",218,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8479407,Jesper Bratt,/api/v1/people/8479407,Jesper,Bratt,63,1998-07-30,21,Stockholm,,SWE,SWE,"5' 10""",175,true,false,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,L,Left Wing,Forward,LW
+8479410,Mikhail Sergachev,/api/v1/people/8479410,Mikhail,Sergachev,98,1998-06-25,21,Nizhnekamsk,,RUS,RUS,"6' 2""",217,true,false,false,false,L,Y,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8479415,Michael McLeod,/api/v1/people/8479415,Michael,McLeod,41,1998-02-03,22,Mississauga,ON,CAN,CAN,"6' 2""",188,true,false,false,true,R,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8479420,Tage Thompson,/api/v1/people/8479420,Tage,Thompson,72,1997-10-30,22,Phoenix,AZ,USA,USA,"6' 6""",215,true,false,false,false,R,I,7,Buffalo Sabres,/api/v1/teams/7,R,Right Wing,Forward,RW
+8479423,Alex Nylander,/api/v1/people/8479423,Alex,Nylander,92,1998-03-02,22,Calgary,AB,CAN,CAN,"6' 1""",192,true,false,false,true,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
+8479425,Filip Hronek,/api/v1/people/8479425,Filip,Hronek,17,1997-11-02,22,Hradec Králové,,CZE,CZE,"6' 0""",183,true,false,false,false,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8479442,Troy Stecher,/api/v1/people/8479442,Troy,Stecher,51,1994-04-07,25,Richmond,BC,CAN,CAN,"5' 10""",186,true,false,false,false,R,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8479458,Nikita Zaitsev,/api/v1/people/8479458,Nikita,Zaitsev,22,1991-10-29,28,Moscow,,RUS,RUS,"6' 2""",188,true,false,false,false,R,Y,9,Ottawa Senators,/api/v1/teams/9,D,Defenseman,Defenseman,D
+8479465,Drake Caggiula,/api/v1/people/8479465,Drake,Caggiula,91,1994-06-20,25,Pickering,ON,CAN,CAN,"5' 10""",176,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8479466,Patrick Russell,/api/v1/people/8479466,Patrick,Russell,52,1993-01-04,27,Holte,,DNK,DNK,"6' 1""",203,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,R,Right Wing,Forward,RW
+8479482,Michal Kempny,/api/v1/people/8479482,Michal,Kempny,6,1990-09-08,29,Hodonin,,CZE,CZE,"6' 1""",195,true,false,false,false,L,Y,15,Washington Capitals,/api/v1/teams/15,D,Defenseman,Defenseman,D
+8479496,David Rittich,/api/v1/people/8479496,David,Rittich,33,1992-08-19,27,Jihlava,,CZE,CZE,"6' 3""",206,true,false,false,false,L,Y,20,Calgary Flames,/api/v1/teams/20,G,Goalie,Goalie,G
+8479523,Lucas Carlsson,/api/v1/people/8479523,Lucas,Carlsson,46,1997-07-05,22,Gävle,,SWE,SWE,"6' 0""",189,true,false,false,true,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8479526,Otto Koivula,/api/v1/people/8479526,Otto,Koivula,21,1998-09-01,21,Nokia,,FIN,FIN,"6' 4""",219,true,false,false,true,L,Y,2,New York Islanders,/api/v1/teams/2,L,Left Wing,Forward,LW
+8479542,Brandon Hagel,/api/v1/people/8479542,Brandon,Hagel,38,1998-08-27,21,Saskatoon,SK,CAN,CAN,"5' 11""",174,true,false,false,true,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,L,Left Wing,Forward,LW
+8479580,Dylan Gambrell,/api/v1/people/8479580,Dylan,Gambrell,7,1996-08-26,23,Bonney Lake,WA,USA,USA,"6' 0""",185,true,false,false,true,R,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8479675,Trevor Moore,/api/v1/people/8479675,Trevor,Moore,12,1995-03-31,24,Thousand Oaks,CA,USA,USA,"5' 10""",185,true,false,false,true,L,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8479772,Zack MacEwen,/api/v1/people/8479772,Zack,MacEwen,71,1996-07-08,23,Charlottetown,PE,CAN,CAN,"6' 3""",205,true,false,false,true,R,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8479944,Zach Aston-Reese,/api/v1/people/8479944,Zach,Aston-Reese,46,1994-08-10,25,Staten Island,NY,USA,USA,"6' 0""",204,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,C,Center,Forward,C
+8479976,Juuso Valimaki,/api/v1/people/8479976,Juuso,Valimaki,8,1998-10-06,21,Tampere,,FIN,FIN,"6' 2""",212,true,false,false,true,L,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8479977,Kailer Yamamoto,/api/v1/people/8479977,Kailer,Yamamoto,56,1998-09-29,21,Spokane,WA,USA,USA,"5' 8""",153,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,R,Right Wing,Forward,RW
+8479983,Mario Ferraro,/api/v1/people/8479983,Mario,Ferraro,38,1998-09-17,21,Toronto,ON,CAN,CAN,"5' 11""",185,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8479998,Mikey Anderson,/api/v1/people/8479998,Mikey,Anderson,44,1999-05-25,20,Fridley,MN,USA,USA,"6' 0""",197,true,false,false,true,L,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8480002,Nico Hischier,/api/v1/people/8480002,Nico,Hischier,13,1999-01-04,21,Brig,,CHE,CHE,"6' 1""",175,true,true,false,false,L,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8480012,Elias Pettersson,/api/v1/people/8480012,Elias,Pettersson,40,1998-11-12,21,Sundsvall,,SWE,SWE,"6' 2""",176,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,C,Center,Forward,C
+8480014,Gabriel Vilardi,/api/v1/people/8480014,Gabriel,Vilardi,42,1999-08-16,20,Kingston,ON,CAN,CAN,"6' 3""",201,true,false,false,true,R,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8480018,Nick Suzuki,/api/v1/people/8480018,Nick,Suzuki,14,1999-08-10,20,London,ON,CAN,CAN,"5' 11""",201,true,false,false,true,R,Y,8,Montréal Canadiens,/api/v1/teams/8,C,Center,Forward,C
+8480023,Robert Thomas,/api/v1/people/8480023,Robert,Thomas,18,1999-07-02,20,Aurora,ON,CAN,CAN,"6' 0""",188,true,false,false,false,R,Y,19,St. Louis Blues,/api/v1/teams/19,C,Center,Forward,C
+8480035,Henri Jokiharju,/api/v1/people/8480035,Henri,Jokiharju,10,1999-06-17,20,Oulu,,FIN,FIN,"6' 0""",195,true,false,false,false,R,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8480036,Miro Heiskanen,/api/v1/people/8480036,Miro,Heiskanen,4,1999-07-18,20,Espoo,,FIN,FIN,"6' 1""",190,true,false,false,false,L,Y,25,Dallas Stars,/api/v1/teams/25,D,Defenseman,Defenseman,D
+8480039,Martin Necas,/api/v1/people/8480039,Martin,Necas,88,1999-01-15,21,Nove Mesto na Morave,,CZE,CZE,"6' 2""",189,true,false,false,true,R,Y,12,Carolina Hurricanes,/api/v1/teams/12,C,Center,Forward,C
+8480069,Cale Makar,/api/v1/people/8480069,Cale,Makar,8,1998-10-30,21,Calgary,AB,CAN,CAN,"5' 11""",187,true,false,false,true,R,Y,21,Colorado Avalanche,/api/v1/teams/21,D,Defenseman,Defenseman,D
+8480074,Alexandre Texier,/api/v1/people/8480074,Alexandre,Texier,42,1999-09-13,20,"St. Martin D'heres",,FRA,FRA,"6' 1""",192,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8480078,Filip Chytil,/api/v1/people/8480078,Filip,Chytil,72,1999-09-05,20,Kromeriz,,CZE,CZE,"6' 2""",206,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,C,Center,Forward,C
+8480113,Alex Iafallo,/api/v1/people/8480113,Alex,Iafallo,19,1993-12-21,26,Eden,NY,USA,USA,"6' 0""",188,true,false,false,false,L,Y,26,Los Angeles Kings,/api/v1/teams/26,L,Left Wing,Forward,LW
+8480144,David Kampf,/api/v1/people/8480144,David,Kampf,64,1995-01-12,25,Chomutov,,CZE,CZE,"6' 2""",188,true,false,false,false,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8480145,Neal Pionk,/api/v1/people/8480145,Neal,Pionk,4,1995-07-29,24,Omaha,NE,USA,USA,"6' 0""",186,true,false,false,false,R,Y,52,Winnipeg Jets,/api/v1/teams/52,D,Defenseman,Defenseman,D
+8480147,Oscar Fantenberg,/api/v1/people/8480147,Oscar,Fantenberg,5,1991-10-07,28,Ljunby,,SWE,SWE,"6' 0""",206,true,false,false,false,L,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8480157,Calle Rosen,/api/v1/people/8480157,Calle,Rosen,48,1994-02-02,26,Vaxjo,,SWE,SWE,"6' 1""",186,true,false,false,true,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8480160,Radim Simek,/api/v1/people/8480160,Radim,Simek,51,1992-09-20,27,Mlada Boleslav,,CZE,CZE,"5' 11""",200,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,D,Defenseman,Defenseman,D
+8480172,Jan Rutta,/api/v1/people/8480172,Jan,Rutta,44,1990-07-29,29,Pisek,,CZE,CZE,"6' 2""",204,true,false,false,false,R,I,14,Tampa Bay Lightning,/api/v1/teams/14,D,Defenseman,Defenseman,D
+8480184,Gustav Lindstrom,/api/v1/people/8480184,Gustav,Lindstrom,28,1998-10-20,21,Ostervala,,SWE,SWE,"6' 2""",190,true,false,false,true,R,Y,17,Detroit Red Wings,/api/v1/teams/17,D,Defenseman,Defenseman,D
+8480205,Emil Bemstrom,/api/v1/people/8480205,Emil,Bemstrom,52,1999-06-01,20,Nykoping,,SWE,SWE,"6' 0""",190,true,false,false,true,R,Y,29,Columbus Blue Jackets,/api/v1/teams/29,C,Center,Forward,C
+8480336,Sean Walker,/api/v1/people/8480336,Sean,Walker,26,1994-11-13,25,Keswick,ON,CAN,CAN,"5' 11""",196,true,false,false,false,R,Y,26,Los Angeles Kings,/api/v1/teams/26,D,Defenseman,Defenseman,D
+8480382,Alexandar Georgiev,/api/v1/people/8480382,Alexandar,Georgiev,40,1996-02-10,24,Ruse,,BGR,RUS,"6' 1""",178,true,false,false,false,L,Y,3,New York Rangers,/api/v1/teams/3,G,Goalie,Goalie,G
+8480384,Alexander True,/api/v1/people/8480384,Alexander,True,70,1997-07-17,22,Copenhagen,,DNK,DNK,"6' 5""",200,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8480727,Zach Whitecloud,/api/v1/people/8480727,Zach,Whitecloud,2,1996-11-28,23,Brandon,MB,CAN,CAN,"6' 2""",209,true,false,false,true,R,Y,54,Vegas Golden Knights,/api/v1/teams/54,D,Defenseman,Defenseman,D
+8480762,Eric Robinson,/api/v1/people/8480762,Eric,Robinson,50,1995-06-14,24,Bellmawr,NJ,USA,USA,"6' 2""",197,true,false,false,true,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,L,Left Wing,Forward,LW
+8480797,Joel Farabee,/api/v1/people/8480797,Joel,Farabee,49,2000-02-25,20,Syracuse,NY,USA,USA,"6' 0""",164,true,false,false,true,L,Y,4,Philadelphia Flyers,/api/v1/teams/4,L,Left Wing,Forward,LW
+8480800,Quinn Hughes,/api/v1/people/8480800,Quinn,Hughes,43,1999-10-14,20,Orlando,FL,USA,USA,"5' 10""",170,true,false,false,true,L,Y,23,Vancouver Canucks,/api/v1/teams/23,D,Defenseman,Defenseman,D
+8480801,Brady Tkachuk,/api/v1/people/8480801,Brady,Tkachuk,7,1999-09-16,20,Scottsdale,AZ,USA,USA,"6' 4""",212,true,false,false,false,L,Y,9,Ottawa Senators,/api/v1/teams/9,L,Left Wing,Forward,LW
+8480814,Nicolas Beaudin,/api/v1/people/8480814,Nicolas,Beaudin,74,1999-10-07,20,Chateauguay,QC,CAN,CAN,"5' 11""",168,true,false,false,true,L,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8480821,Filip Zadina,/api/v1/people/8480821,Filip,Zadina,11,1999-11-27,20,Pardubice,,CZE,CZE,"6' 0""",189,true,false,false,true,L,I,17,Detroit Red Wings,/api/v1/teams/17,R,Right Wing,Forward,RW
+8480830,Andrei Svechnikov,/api/v1/people/8480830,Andrei,Svechnikov,37,2000-03-26,19,Barnaul,,RUS,RUS,"6' 2""",195,true,false,false,false,L,Y,12,Carolina Hurricanes,/api/v1/teams/12,R,Right Wing,Forward,RW
+8480839,Rasmus Dahlin,/api/v1/people/8480839,Rasmus,Dahlin,26,2000-04-13,19,Lidkoping,,SWE,SWE,"6' 3""",193,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8480849,Barrett Hayton,/api/v1/people/8480849,Barrett,Hayton,29,2000-06-09,19,Peterborough,ON,CAN,CAN,"6' 1""",190,true,false,false,true,L,Y,53,Arizona Coyotes,/api/v1/teams/53,C,Center,Forward,C
+8480865,Noah Dobson,/api/v1/people/8480865,Noah,Dobson,8,2000-01-07,20,Summerside,PE,CAN,CAN,"6' 4""",184,true,false,false,true,R,Y,2,New York Islanders,/api/v1/teams/2,D,Defenseman,Defenseman,D
+8480871,Adam Boqvist,/api/v1/people/8480871,Adam,Boqvist,27,2000-08-15,19,Falun,,SWE,SWE,"5' 11""",179,true,false,false,true,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,D,Defenseman,Defenseman,D
+8480873,Rasmus Sandin,/api/v1/people/8480873,Rasmus,Sandin,38,2000-03-07,20,Uppsala,,SWE,SWE,"5' 11""",183,true,false,false,true,L,Y,10,Toronto Maple Leafs,/api/v1/teams/10,D,Defenseman,Defenseman,D
+8480925,Pavel Francouz,/api/v1/people/8480925,Pavel,Francouz,39,1990-06-03,29,Plzen,,CZE,CZE,"6' 0""",179,true,false,false,false,R,Y,21,Colorado Avalanche,/api/v1/teams/21,G,Goalie,Goalie,G
+8480935,Lawrence Pilut,/api/v1/people/8480935,Lawrence,Pilut,24,1995-12-30,24,Tingsryd,,SWE,SWE,"5' 11""",194,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,D,Defenseman,Defenseman,D
+8480944,Par Lindholm,/api/v1/people/8480944,Par,Lindholm,26,1991-10-05,28,Kusmark,,SWE,SWE,"6' 0""",183,true,false,false,false,L,Y,6,Boston Bruins,/api/v1/teams/6,C,Center,Forward,C
+8480945,Juuso Riikola,/api/v1/people/8480945,Juuso,Riikola,50,1993-11-09,26,Joensuu,,FIN,FIN,"6' 0""",189,true,false,false,false,L,Y,5,Pittsburgh Penguins,/api/v1/teams/5,D,Defenseman,Defenseman,D
+8480946,Dominik Kahun,/api/v1/people/8480946,Dominik,Kahun,95,1995-07-02,24,Plana,,CZE,DEU,"5' 11""",175,true,false,false,false,L,Y,7,Buffalo Sabres,/api/v1/teams/7,C,Center,Forward,C
+8480950,Ilya Lyubushkin,/api/v1/people/8480950,Ilya,Lyubushkin,46,1994-04-06,25,Moscow,,RUS,RUS,"6' 2""",201,true,false,false,false,R,Y,53,Arizona Coyotes,/api/v1/teams/53,D,Defenseman,Defenseman,D
+8480965,Antti Suomela,/api/v1/people/8480965,Antti,Suomela,40,1994-03-17,26,Espoo,,FIN,FIN,"6' 0""",180,true,false,false,false,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8481481,Blake Lizotte,/api/v1/people/8481481,Blake,Lizotte,46,1997-12-13,22,Lindstrom,MN,USA,USA,"5' 7""",172,true,false,false,true,L,Y,26,Los Angeles Kings,/api/v1/teams/26,C,Center,Forward,C
+8481516,Joel Kellman,/api/v1/people/8481516,Joel,Kellman,46,1994-05-25,25,Karlskrona,,SWE,SWE,"5' 11""",192,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8481523,Kirby Dach,/api/v1/people/8481523,Kirby,Dach,77,2001-01-21,19,Fort Saskatchewan,AB,CAN,CAN,"6' 4""",197,true,false,false,true,R,Y,16,Chicago Blackhawks,/api/v1/teams/16,C,Center,Forward,C
+8481554,Kaapo Kakko,/api/v1/people/8481554,Kaapo,Kakko,24,2001-02-13,19,Turku,,FIN,FIN,"6' 3""",199,true,false,false,true,L,Y,3,New York Rangers,/api/v1/teams/3,R,Right Wing,Forward,RW
+8481559,Jack Hughes,/api/v1/people/8481559,Jack,Hughes,86,2001-05-14,18,Orlando,FL,USA,USA,"5' 11""",170,true,false,false,true,L,Y,1,New Jersey Devils,/api/v1/teams/1,C,Center,Forward,C
+8481624,Ilya Mikheyev,/api/v1/people/8481624,Ilya,Mikheyev,65,1994-10-10,25,Omsk,,RUS,RUS,"6' 3""",195,true,false,false,true,L,I,10,Toronto Maple Leafs,/api/v1/teams/10,R,Right Wing,Forward,RW
+8481630,Alexander Yelesin,/api/v1/people/8481630,Alexander,Yelesin,45,1996-02-07,24,Yaroslavl,,RUS,RUS,"6' 0""",195,true,false,false,true,R,Y,20,Calgary Flames,/api/v1/teams/20,D,Defenseman,Defenseman,D
+8481638,Joakim Nygard,/api/v1/people/8481638,Joakim,Nygard,10,1993-01-08,27,Stockholm,,SWE,SWE,"6' 0""",179,true,false,false,false,L,Y,22,Edmonton Oilers,/api/v1/teams/22,L,Left Wing,Forward,LW
+8481640,Lean Bergmann,/api/v1/people/8481640,Lean,Bergmann,45,1998-10-04,21,Hemer,,DEU,DEU,"6' 2""",205,true,false,false,true,L,Y,28,San Jose Sharks,/api/v1/teams/28,C,Center,Forward,C
+8481641,Joel Kiviranta,/api/v1/people/8481641,Joel,Kiviranta,25,1996-03-23,23,Vantaa,,FIN,FIN,"5' 11""",180,true,false,false,true,L,Y,25,Dallas Stars,/api/v1/teams/25,L,Left Wing,Forward,LW
+8481642,Andrei Chibisov,/api/v1/people/8481642,Andrei,Chibisov,76,1993-02-26,27,Prokopyevsk,,RUS,RUS,"6' 4""",227,true,false,false,false,L,Y,52,Winnipeg Jets,/api/v1/teams/52,R,Right Wing,Forward,RW
+8481650,Jakob Lilja,/api/v1/people/8481650,Jakob,Lilja,15,1993-07-23,26,Malmo,,SWE,SWE,"6' 1""",196,true,false,false,false,L,Y,29,Columbus Blue Jackets,/api/v1/teams/29,L,Left Wing,Forward,LW
+8481813,Gaetan Haas,/api/v1/people/8481813,Gaetan,Haas,91,1992-01-31,28,Bonfol,,CHE,CHE,"6' 0""",181,true,false,false,false,R,Y,22,Edmonton Oilers,/api/v1/teams/22,C,Center,Forward,C
