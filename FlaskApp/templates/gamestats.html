@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Python Flask Bucket List App</title>
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css   ">
+
+
+
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <style>
+        td.details-control {
+            background: url('../static/resources/details_open.png') no-repeat center center;
+            cursor: pointer;
+        }
+
+        tr.shown td.details-control {
+            background: url('../static/resources/details_close.png') no-repeat center center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="/" class="active">Home</a>
+        
+        <a href="/player.html">Player Prices</a>
+        <a href="/gamestats.html">Game Stats</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1>Player Last 10 Game stats!!!</h1>
+        </div>
+
+        <div>
+            <table id="gamestats_table" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Primary Position name</th>
+                        <th>Goals per 10</th>
+                        <th>Asists per 10</th>
+                        <th>Shots per 10</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="jumbotron">
+            <h1>Goalie Last 10 Game stats!!!</h1>
+        </div>
+        <div>
+            <table id="gamestats_table_goalie" class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Name</th>
+                        <th>Saves per 10</th>
+                        <th>Save Percent 10</th>
+                        <th>Wins 10</th>
+                        <th>Shots Against 10</th>
+                    </tr>
+                </thead>
+
+            </table>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; Company 2020</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+        function format(d) {
+            // `d` is the original data object for the row
+            return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+                '<tr>' +
+                '<td>Player ID:</td>' +
+                '<td>' + d.player_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Game ID:</td>' +
+                '<td>' + d.game_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Season:</td>' +
+                '<td>' + d.season + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Blocks:</td>' +
+                '<td>' + d.blocks_10 + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>ES TOI 10:</td>' +
+                '<td>' + d.es_toi_10 + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>PP TOI 10:</td>' +
+                '<td>' + d.pp_toi_10 + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>PP Goals 10:</td>' +
+                '<td>' + d.pp_goals_10 + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>PP Assists 10:</td>' +
+                '<td>' + d.pp_assists_10 + '</td>' +
+                '</tr>' + '<tr>' +
+                '<td>Takeaways:</td>' +
+                '<td>' + d.takeaways_10 + '</td>' +
+                '</tr>' + '<tr>' +
+                '<td>Giveaways:</td>' +
+                '<td>' + d.giveaways_10 + '</td>' +
+                '</tr>' +
+                '</tr>' + '<tr>' +
+                '<td>Plus Minus:</td>' +
+                '<td>' + d.plus_minus_10 + '</td>' +
+                '</tr>' +
+                '</tr>' + '<tr>' +
+                '<td>Sh Goals:</td>' +
+                '<td>' + d.sh_goals_10 + '</td>' +
+                '</tr>' +
+                '</tr>' + '<tr>' +
+                '<td>Sh Assists:</td>' +
+                '<td>' + d.sh_assists_10 + '</td>' +
+                '</tr>' +
+                '</table>';
+        }
+
+        function format2(d) {
+            // `d` is the original data object for the row
+            return '<table cellpadding="5" cellspacing="0" border="0" style="padding-left:50px;">' +
+                '<tr>' +
+                '<td>Player ID:</td>' +
+                '<td>' + d.player_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Game ID:</td>' +
+                '<td>' + d.game_id + '</td>' +
+                '</tr>' +
+                '<tr>' +
+                '<td>Season:</td>' +
+                '<td>' + d.season + '</td>' +
+                '</tr>' +
+                '<td>Goals Against 10:</td>' +
+                '<td>' + d.goals_against_10 + '</td>' +
+                '</tr>' +
+                '<td>Shutouts 10:</td>' +
+                '<td>' + d.shutouts_10 + '</td>' +
+                '</tr>' +
+                '<td>OT Loss 10:</td>' +
+                '<td>' + d.ot_loss_10 + '</td>' +
+                '</tr>' +
+                '<td>ES Shots 10:</td>' +
+                '<td>' + d.es_shots_10 + '</td>' +
+                '</tr>' +
+                '<td>ES Save Percent 10:</td>' +
+                '<td>' + d.es_save_percent_10 + '</td>' +
+                '</tr>' +
+                '<td>PP Shots 10:</td>' +
+                '<td>' + d.pp_shots_10 + '</td>' +
+                '</tr>' +
+                '<td>PP Save Percent 10:</td>' +
+                '<td>' + d.pp_save_percent_10 + '</td>' +
+                '</tr>' +
+                '<td>SH Shots 10:</td>' +
+                '<td>' + d.sh_shots_10 + '</td>' +
+                '</tr>' +
+                '</tr>' +
+                '<td>SH Save Percent 10:</td>' +
+                '<td>' + d.sh_save_percent_10 + '</td>' +
+                '</tr>' +                      
+                '</table>';
+        }
+        
+        $(document).ready(function () {
+
+            var table = $('#gamestats_table').DataTable({
+                ajax: { url: "http://127.0.0.1:5000/gamestatsdata", dataSrc: "" },
+                "pagingType": "full_numbers",
+
+                "columns": [
+                    {
+                        "className": 'details-control',
+                        "orderable": false,
+                        "data": null,
+                        "defaultContent": ''
+                    },
+                    { "data": "fullName" },
+                    { "data": "primaryPositionname" },
+                    { "data": "goals_10" },
+                    { "data": "assists_10" },
+                    { "data": "shots_10" }
+                ],
+                "order": [[1, 'asc']]
+            });
+
+            $('#gamestats_table tbody').on('click', 'td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table.row(tr);
+
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass('shown');
+                }
+                else {
+                    // Open this row
+                    row.child(format(row.data())).show();
+                    tr.addClass('shown');
+                }
+            });
+
+
+            
+            var table2 = $('#gamestats_table_goalie').DataTable({
+                ajax: { url: "http://127.0.0.1:5000/gamestatsdatagoalie", dataSrc: "" },
+                "pagingType": "full_numbers",
+
+                "columns": [
+                    {
+                        "className": 'details-control',
+                        "orderable": false,
+                        "data": null,
+                        "defaultContent": ''
+                    },
+                    { "data": "fullName" },
+                    { "data": "saves_10" },
+                    { "data": "save_percent_10" },
+                    { "data": "wins_10" },
+                    { "data": "shots_against_10" }
+                ],
+                "order": [[1, 'asc']]
+            });
+
+            $('#gamestats_table_goalie tbody').on('click', 'td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table2.row(tr);
+
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass('shown');
+                }
+                else {
+                    // Open this row
+                    row.child(format2(row.data())).show();
+                    tr.addClass('shown');
+                }
+            });
+
+        });
+    </script>
+
+</body>
+
+</html>
