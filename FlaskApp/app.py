@@ -43,7 +43,24 @@ def player():
 
     return render_template('player.html', column_names=df.columns.values, row_data=list(df.values.tolist()),
                            link_column="Name", zip=zip, data=optimized_output)
+						   
 
+@app.route("/multi.html", methods=['GET', 'POST'])
+def multi():
+    #projectpath = request.form['projectFilepath']
+    # your code
+    # return a response
+    return render_template('multi.html')
+
+@app.route("/handle_data", methods=['POST'])
+def handle_data():
+    raw_names = request.form['Names'] 
+    names = [x.strip() for x in raw_names.split(',')]	
+    df = pd.read_csv('data/player_prices_w_pred.csv')
+    #print(df.loc[df['Name'] == 'Jordan Binnington'])
+    print(df.loc[df['Name'].isin(names)])    
+    #print(names)    
+    return render_template('multi.html')	
 
 @app.route("/gamestats.html", methods=['GET', 'POST'])
 def player_game_stats():
