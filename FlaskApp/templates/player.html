@@ -6,18 +6,20 @@
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css   ">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css   ">
 
 
 
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+    <script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
 </head>
@@ -42,39 +44,46 @@
         </div>
         <form action="" method="post">
             <div class="form-group green-border-focus">
-                <textarea class="form-control" id="Names" name= "Names" rows="3"></textarea>
-              </div>
-                <button type="submit" class="btn btn-success">Submit</button>
+                <h5>Optimize Line Up here, type a name(s) of a player(s) you want</h5>
+                <h6>Use comma to add multiple players, or keep the box empty and hit Submit!</h6>
+                <textarea class="form-control" id="Names" name="Names" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">Submit</button>
         </form>
-        <div>
+        <!-- <div>
             <h1>Optimized Lined Up</h1>
             {% for item in data %}
-                <p> {{ item }} </p>
+            <p> {{ item }} </p>
             {% endfor %}
-        </div>
+        </div> -->
 
         {% if chart_data is not none %}
         <div id="chart1">
-          <canvas id="myChart"></canvas>
+            <canvas id="bar-chart-grouped" width="800" height="450"></canvas>
+            <br />
+            <br />
+            <canvas id="myChart"></canvas>
+            
         </div>
+
         <br>
         <br>
         <br>
         {% endif %}
-        <div >
-            <table id = "prices_table" class="table table-striped table-bordered">
+        <div>
+            <table id="prices_table" class="table table-striped table-bordered">
                 <thead>
-                <tr>
-                    {% for col in column_names %}
+                    <tr>
+                        {% for col in column_names %}
                         <th>{{col}}</th>
-                    {% endfor %}
-                </tr>
+                        {% endfor %}
+                    </tr>
                 </thead>
                 <tbody>
                     {% for row in row_data %}
                     <tr>
                         {% for col, row_ in zip(column_names, row) %}
-                            <td>{{row_}}</td>
+                        <td>{{row_}}</td>
                         {% endfor %}
                     </tr>
                     {% endfor %}
@@ -99,47 +108,82 @@
             }
         }
 
-        $(document).ready( function () {
+        $(document).ready(function () {
             $('#prices_table').DataTable({
             });
 
-        } );
+        });
 
         chart_data = '{{chart_data | tojson}}'
+        preds = '{{preds_per_method | tojson}}'
         console.log(chart_data)
         console.log(typeof chart_data)
         chart_data = JSON.parse(chart_data)
+        preds = JSON.parse(preds)
+        console.log(typeof preds)
+        player_names = '{{data  | tojson}}'
+        player_names = JSON.parse(player_names)
 
-          var ctx = document.getElementById('myChart').getContext('2d');
-          var chart = new Chart(ctx, {
-              // The type of chart we want to create
-              type: 'line',
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var chart = new Chart(ctx, {
+            // The type of chart we want to create
+            type: 'line',
 
-              // The data for our dataset
-              data: chart_data,
+            // The data for our dataset
+            data: chart_data,
 
-              // Configuration options go here
-              options: {
+            // Configuration options go here
+            options: {
                 legend: {
-                  display: true,
-                  position: 'right',
-                  fillStyle: Color
+                    display: true,
+                    position: 'right',
+                    fillStyle: Color
                 },
                 title: {
-                  display: true,
-                  text: 'Recent Performance of Selected Players',
-                  fontSize: 16
+                    display: true,
+                    text: 'Recent Performance of Selected Players',
+                    fontSize: 20
                 },
                 scales: {
-                  yAxes: [{
-                    scaleLabel: {
-                      display: true,
-                      labelString: 'Daily Fantasy Points'
-                    }
-                  }]
+                    yAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Daily Fantasy Points'
+                        }
+                    }]
                 }
-              }
-          });
+            }
+        });
+
+        new Chart(document.getElementById("bar-chart-grouped"), {
+            type: 'bar',
+            data: {
+                labels: player_names,
+                datasets: [
+                    {
+                        label: "Ridge Regression",
+                        backgroundColor: "#3e95cd",
+                        data: preds.Ridge_Regression
+                    }, {
+                        label: "Neural Net",
+                        backgroundColor: "#8e5ea2",
+                        data: preds.Neural_Net
+                    },
+                    {
+                        label: "XGBoost",
+                        backgroundColor: "#3cba9f",
+                        data: preds.XGBoost
+                    }
+                ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'DFS Point prediction for Current Line Up',
+                    fontSize: 20
+                }
+            }
+        });
 
     </script>
 

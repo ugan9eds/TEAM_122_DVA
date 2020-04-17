@@ -31,6 +31,9 @@ def player():
     form = ReusableForm(request.form)
     optimized_output = []
     chart_data = None
+    pred_current = {}
+    rr, nn, xgb = [], [], []
+    
     # print(form.errors)
     if request.method == 'POST':
         player_names = request.form['Names']
@@ -42,8 +45,18 @@ def player():
 
         chart_data = dataStream(optimized_output)
 
+        for player in optimized_output:
+            rr.append(df[df["Name"] == player]['Linear_DFS_Prediction'].iloc[0])
+            nn.append(df[df["Name"] == player]['NN_DFS_Prediction'].iloc[0])
+            xgb.append(df[df["Name"] == player]['lgbm_projection'].iloc[0])
+        
+        print(rr)
+        pred_current["Ridge_Regression"] = rr
+        pred_current["Neural_Net"] = nn
+        pred_current["XGBoost"] = xgb
+
     return render_template('player.html', column_names=df.columns.values, row_data=list(df.values.tolist()),
-                           link_column="Name", zip=zip, data=optimized_output, chart_data=chart_data)
+                           link_column="Name", zip=zip, data=optimized_output, chart_data=chart_data, preds_per_method= pred_current)
 
 
 @app.route("/gamestats.html", methods=['GET', 'POST'])
