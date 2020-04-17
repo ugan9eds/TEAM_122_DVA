@@ -30,6 +30,7 @@ def player():
 
     form = ReusableForm(request.form)
     optimized_output = []
+    chart_data = None
     # print(form.errors)
     if request.method == 'POST':
         player_names = request.form['Names']
@@ -39,10 +40,10 @@ def player():
 
         optimized_output = optimization_model(player_names_list)
 
-        print(optimized_output)
+        chart_data = dataStream(optimized_output)
 
     return render_template('player.html', column_names=df.columns.values, row_data=list(df.values.tolist()),
-                           link_column="Name", zip=zip, data=optimized_output)
+                           link_column="Name", zip=zip, data=optimized_output, chart_data=chart_data)
 
 
 @app.route("/gamestats.html", methods=['GET', 'POST'])
@@ -93,14 +94,34 @@ def confirmation():
     return render_template('confirmation.html')
 
 
-@app.route("/getData", methods=['POST', 'GET'])
-def dataStream():
-    df = pd.read_csv('data/data.csv')
-    chart_data = df.to_dict(orient='records')
-    chart_data = json.dumps(chart_data, indent=2)
-    data = {'chart_data': chart_data}
+def dataStream(players):
+    # players = ['Alex Ovechkin', 'Thomas Greiss', 'Jack Eichel', 'Blake Wheeler', 'Travis Sanheim', 'Erik Johnson', 'Anthony Mantha', 'Nathan MacKinnon']
 
-    return chart_data
+    df = pd.read_csv('data/last_5_games.csv')
+    df_final = df.loc[df['fullName'].isin(players)]
+    colors = ['rgb(25, 25, 112)', 'rgb(0, 100, 0)', 'rgb(255, 0, 0)', 'rgb(255, 215, 0)', 'rgb(0, 255, 0)', 'rgb(0, 255, 255)', 'rgb(255, 0, 255)', 'rgb(255, 182, 193)']
+    datasets = []
+    for i in range(0, len(players)):
+        temp = {'label' : players[i]}
+        temp['borderColor'] = colors[i]
+        temp['backgroundColor'] = colors[i]
+        temp['fill'] = 'false'
+        temp['lineTension'] = 0.1
+        temp['data'] = list(df.loc[df['fullName'] == players[i]].values[0][3:])[::-1]
+
+        datasets.append(temp)
+
+    # df_final = df_final[['fullName', '5_game', '4_game', '3_game', '2_game', '1_game']]
+    # print(df_final)
+    # # df = pd.read_csv('data/data.csv')
+    # chart_data = df_final.to_dict(orient='records')
+    # chart_data = json.dumps(chart_data, indent=2)
+    labels = ['5 games ago', '4 games ago', '3 games ago', '2 games ago', 'Last Game']
+
+
+    data = {'labels': labels, 'datasets' : datasets}
+
+    return data
 
 # @app.route("/player/prices", methods=['POST', 'GET'])
 # def player_prices():
