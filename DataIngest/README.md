@@ -1,6 +1,6 @@
 # DVA Team Project
 
-This solution provides...[TO BE COMPLETED]
+This solution helps to pull data direcly from NHL Rest endpoints and maps it to Java objects which are later used to insert data into a DB.
 
 ## Built With
 
@@ -21,7 +21,7 @@ In order to run this application locally, you will need to download a few depend
 * JDK 1.8 or later
 * Maven 3.2+
 
-[TO BE COMPLETED]
+
 
 ### Installing
 
