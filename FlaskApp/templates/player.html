@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Python Flask Bucket List App</title>
+    <title>NHL DFS Optimizer</title>
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -27,10 +27,10 @@
 <body>
 
     <div class="topnav" id="myTopnav">
-        <a href="/" class="active">Home</a>
+        <a href="/">Home</a>
 
-        <a href="/player.html">Player Prices</a>
-        <a href="/gamestats.html">Game Stats</a>
+        <a href="/player.html" class="active">Lineup Optimizer</a>
+        <a href="/gamestats.html">Player Stats</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -40,16 +40,18 @@
     <div class="container">
 
         <div class="jumbotron">
-            <h1>Player Prices!!!</h1>
+            <h1 align="center">Lineup Optimizer</h1>
+        </div>
+        <div class="alert alert-info" role="alert">
+                Press optimize to see the optimal lineup. Enter any players you want to force into the lineup in the textbox below. Please enter their name exactly as it appears in the list, and separate any 2 players with a comma (no space before or after the comma)
         </div>
         <form action="" method="post">
-            <div class="form-group green-border-focus">
-                <h5>Optimize Line Up here, type a name(s) of a player(s) you want</h5>
-                <h6>Use comma to add multiple players, or keep the box empty and hit Submit!</h6>
+            <div class="form-group green-border-focus">                
                 <textarea class="form-control" id="Names" name="Names" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" class="btn btn-success">Optimize</button>
         </form>
+        <br><br>
         <!-- <div>
             <h1>Optimized Lined Up</h1>
             {% for item in data %}
@@ -93,7 +95,7 @@
         </div>
 
         <footer class="footer">
-            <p>&copy; Company 2020</p>
+            <p>&copy; DVA Team Project 2020</p>
         </footer>
 
     </div>
