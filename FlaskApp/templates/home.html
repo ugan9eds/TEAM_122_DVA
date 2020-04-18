@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Python Flask Bucket List App</title>
+    <title>NHL DFS Optimizer</title>
     <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,8 +21,8 @@
     <div class="topnav" id="myTopnav">
         <a href="/" class="active">Home</a>
         
-        <a href="/player.html">Player Prices</a>
-        <a href="/gamestats.html">Game Stats</a>
+        <a href="/player.html">Lineup Optimizer</a>
+        <a href="/gamestats.html">Player Stats</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
@@ -41,20 +41,23 @@
 
         <div class="row marketing">
             <div class="col-lg-6">
-                <h4>Game Stats</h4>
-                <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+                <a href="/player.html"><h4>Lineup Optimizer</h4></a>
+                <p>Shows all of the player DFS prices and predictions, and enables you to optimize your lineup.  Shows DFS performance of your optimized lineup.</p>
 
-                <h4>Team Stats</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+                <a href="/gamestats.html"><h4>Player Stats</h4></a>
+                <p>Shows the last 10 game performance of every player.  Allows you to dig in beyond the optimal lineup.</p>
 
             </div>
 
             <div class="col-lg-6">
-                <h4>Player Stats</h4>
-                <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
+                <a href="https://gitlab.com/dword4/nhlapi/-/tree/master/" target="_blank"><h4>Data Source</h4></a>
+                <p>All data is pulled directly from the NHL API.  Documentation available at:
+                <a href="https://gitlab.com/dword4/nhlapi/-/tree/master/">
+                https://gitlab.com/dword4/nhlapi/-/tree/master/</p>
+                </a>
 
-                <h4>Other Stats</h4>
-                <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <a href="https://www.draftkings.com/help/rules/nhl" target="_blank"><h4>Other</h4></a>
+                <p>All lineups optimized to DraftKings NHL DFS scoring.</p>
             </div>
         </div>
 
